@@ -1,0 +1,117 @@
+#search{
+	.header{
+		padding: 17/46.875rem 28/46.875rem;
+		box-sizing: border-box;
+		position: relative;
+		border-bottom: 1px solid #d8d9d9;
+		.search-wrapper{
+			width: 588/46.875rem;
+			height: 56/46.875rem;
+			background-color: #fff;
+			border-radius: 6/46.875rem;
+			img{
+				width: 34/46.875rem;
+				height: 34/46.875rem;
+				vertical-align: top;
+				margin-left: 12/46.875rem;
+				margin-top: 10/46.875rem;
+				margin-right: 18/46.875rem;
+			}
+			.search{
+				border:none;
+				height: 40/46.875rem;;
+				width: 506/46.875rem;
+				border-left: 1px solid #dcdcdc;
+				padding-left: 20/46.875rem;
+				box-sizing: border-box;
+				color: #666666;
+				&:focus{
+					outline-color: transparent;
+				}
+			}
+		}
+		.cancel{
+			position: absolute;
+			right: 42/46.875rem;
+			top: 30/46.875rem;;
+			font-size: 30/46.875rem;
+			color: #53ac33;
+		}
+	}
+	.container{
+		.searchView{
+			min-height: 1120/46.875rem;
+			position: relative;
+			.title{
+				margin: 22/46.875rem 38/46.875rem 0;
+				height: 60/46.875rem;
+				line-height: 60/46.875rem;
+				border-bottom: 1px solid #e5e5e5;
+				font-size: 26/46.875rem;
+				color: #999999;
+				.clean{
+					float: right;
+					color: #53ac33;
+				}
+			}
+			.historyList{
+				.history{
+					height: 88/46.875rem;
+					line-height: 88/46.875rem;
+					background-color: #fff;
+					border-bottom: 1px solid #f0f1f1;
+					padding-left: 40/46.875rem;
+					box-sizing: border-box;
+					font-size: 26/46.875rem;
+					color: #999999;
+					position: relative;
+					.del{
+						position: absolute;
+						right: 40/46.875rem;
+						top: 0;
+						img{
+							width: 28/46.875rem;
+							height: 28/46.875rem;
+						}
+					}
+				}
+			}
+			.noSearch{
+				position: absolute;
+				top: 482/46.875rem;
+				left: 260/46.875rem;
+				img{
+					width: 240/46.875rem;
+					height: 210/46.875rem;
+				}
+				.text{
+					text-align: center;
+					font-size: 30/46.875rem;
+					color: #999999;
+					margin-top: 54/46.875rem;
+				}
+			}
+		}
+		.contentView{
+			display: none;
+			.searchLsit{
+				margin-top: 84/46.875rem;
+				.searchItem{
+					height: 88/46.875rem;
+					line-height: 88/46.875rem;
+					background-color: #fff;
+					font-size: 26/46.875rem;
+					padding-left: 42/46.875rem;
+					box-sizing: border-box;
+					.arrow{
+						float: right;
+						width: 38/46.875rem;
+						height: 38/46.875rem;
+						margin-right: 46/46.875rem;
+						margin-top: 24/46.875rem;
+					}
+				}
+			}
+		}
+	}
+}

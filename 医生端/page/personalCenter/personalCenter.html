@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="personalCenter.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="personalCenter">
+		<div class="card clearfix">
+			<div class="avatar">
+				<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+			</div>
+			<div class="msg">
+				<h5 class="name">阿狸</h5>
+				<p class="text">123@163.com</p>
+			</div>
+			<a href="../personalInfo/personalInfo.html"><img src="../../src/image/jt_right_White.png" height="38" width="38" class="arrow" alt=""></a>
+		</div>
+		<div class="topbar clearfix">
+			<div class="bar active" data-idx="0">
+				<img src="../../src/image/news.png" height="44" width="44" alt="">
+				<p class="text">消息</p>
+			</div>
+			<div class="bar" data-idx="1">
+				<img src="../../src/image/Return_visit.png" height="44" width="44" alt="">
+				<p class="text">回访安排</p>
+			</div>
+			<!-- <div class="bar" data-idx="2">
+				<img src="../../src/image/Questionnaire_blue.png" height="44" width="44" alt="">
+				<p class="text">调查问卷</p>
+			</div> -->
+		</div>
+		<div class="view-wrapper clearfix">
+			<div class="view">
+				<div class="list">
+					<div class="item">
+						<a href="#">
+							<p class="title"><span class="radios"></span>健康提醒</p>
+							<p class="text">经常熬夜最伤肝，快在白开水加点它，让肝脏啦啦啦啦啦啦……</p>
+							<span class="time">2017-03-22&nbsp;&nbsp;19:05</span>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<p class="title"><span class="radios"></span>健康提醒</p>
+							<p class="text">经常熬夜最伤肝，快在白开水加点它，让肝脏啦啦啦啦啦啦……</p>
+							<span class="time">2017-03-22&nbsp;&nbsp;19:05</span>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<p class="title"><span class="radios overdue"></span>健康提醒</p>
+							<p class="text">经常熬夜最伤肝，快在白开水加点它，让肝脏啦啦啦啦啦啦……</p>
+							<span class="time">2017-03-22&nbsp;&nbsp;19:05</span>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<p class="title"><span class="radios"></span>健康提醒</p>
+							<p class="text">经常熬夜最伤肝，快在白开水加点它，让肝脏啦啦啦啦啦啦……</p>
+							<span class="time">2017-03-22&nbsp;&nbsp;19:05</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="view">
+				<div class="subTabs">
+					<div class="subTab active" data-idx="0"><span class="text">全部</span></div>
+					<div class="subTab" data-idx="1"><span class="text">未回访</span></div>
+					<div class="subTab" data-idx="2"><span class="text">已回访</span></div>
+				</div>
+				<div class="container">
+					<div class="ctar" data-index="0">
+						<div class="ctar-list clearfix">
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+						</div>
+					</div>
+					<div class="ctar" data-index="1">
+						<div class="ctar-list clearfix">
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+						</div>
+					</div>
+					<div class="ctar" data-index="2">
+						<div class="ctar-list clearfix">
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+							<div class="ctar-item clearfix">
+								<div class="avatar">
+									<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+								</div>
+								<p class="name">阿狸</p>
+								<p class="time">2017/3/2</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="view">
+				<ul class="surveyList">
+					<li class="item">
+						<a href="../questionnaire/questionnaire.html">
+							<p class="text">xxx调查问卷</p>
+							<img src="../../src/image/jt_right.png" class="arrow" height="38" width="38" alt="">
+						</a>
+					</li>
+					<li class="item">
+						<a href="../questionnaire/questionnaire.html">
+							<p class="text">xxx调查问卷</p>
+							<img src="../../src/image/jt_right.png" class="arrow" alt="">
+						</a>
+					</li>
+					<li class="item">
+						<a href="../questionnaire/questionnaire.html">
+							<p class="text">xxx调查问卷</p>
+							<img src="../../src/image/jt_right.png" class="arrow" alt="">
+						</a>
+					</li>
+					<li class="item">
+						<a href="../questionnaire/questionnaire.html">
+							<p class="text">xxx调查问卷</p>
+							<img src="../../src/image/jt_right.png" class="arrow" alt="">
+						</a>
+					</li>
+					<li class="item">
+						<a href="../questionnaire/questionnaire.html">
+							<p class="text">xxx调查问卷</p>
+							<img src="../../src/image/jt_right.png" class="arrow" alt="">
+						</a>
+					</li>
+				</ul>
+			</div> -->
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="personalCenter.js"></script>
+</body>
+</html>

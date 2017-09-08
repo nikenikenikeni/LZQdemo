@@ -1,0 +1,73 @@
+#status ::-webkit-scrollbar {
+  width: 0px;
+}
+#status .avatar {
+  margin-top: 0.384rem;
+  height: 2.00533333rem;
+  line-height: 2.00533333rem;
+  background-color: #fff;
+  font-size: 0.64rem;
+  border-bottom: 1px solid #eeeeee;
+}
+#status .avatar img {
+  width: 1.36533333rem;
+  height: 1.36533333rem;
+  vertical-align: top;
+  border-radius: 50%;
+  margin-top: 0.34133333rem;
+  margin-left: 0.64rem;
+  margin-right: 0.384rem;
+}
+#status .wrapper {
+  background-color: #fff;
+  padding: 1.19466667rem 0;
+}
+#status .container {
+  padding: 0 1.36533333rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 21.12rem;
+  overflow-y: auto;
+}
+#status .container .item {
+  border-left: 1px solid #e5e5e5;
+  position: relative;
+}
+#status .container .item:last-child .info {
+  border-bottom: 0;
+}
+#status .container .item .info {
+  margin: 0 0.384rem;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.59733333rem 0.512rem 0.512rem;
+}
+#status .container .item .info .title {
+  font-size: 0.55466667rem;
+}
+#status .container .item .info .title .time {
+  color: #999999;
+  font-size: 0.42666667rem;
+  margin-left: 0.512rem;
+}
+#status .container .item .info .text {
+  font-size: 0.55466667rem;
+  color: #999999;
+  margin-top: 0.59733333rem;
+}
+#status .container .item .info .radius {
+  width: 0.42666667rem;
+  height: 0.42666667rem;
+  border-radius: 50%;
+  position: absolute;
+  left: -0.21333333rem;
+  top: 0.7rem;
+}
+#status .container .item .info .success {
+  background-color: #53ac33;
+}
+#status .container .item .info .wait {
+  background-color: #f8b551;
+}
+#status .container .item .info .skip {
+  background-color: #ff0000;
+}

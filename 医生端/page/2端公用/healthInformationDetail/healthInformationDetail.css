@@ -1,0 +1,28 @@
+#healthInformationDetail {
+  background-color: #fff;
+  min-height: 28.45866667rem;
+  padding: 0.85333333rem 0.59733333rem;
+  box-sizing: border-box;
+}
+#healthInformationDetail .title {
+  font-size: 0.64rem;
+}
+#healthInformationDetail .info span {
+  font-size: 0.46933333rem;
+  color: #8c8c8c;
+}
+#healthInformationDetail .info .time {
+  margin-right: 0.59733333rem;
+}
+#healthInformationDetail .content img {
+  width: 100%;
+  margin-top: 0.46933333rem;
+  margin-bottom: 0.81066667rem;
+}
+#healthInformationDetail .content p {
+  text-indent: 2em;
+  font-size: 0.59733333rem;
+  line-height: 1.024rem;
+  color: #666666;
+  margin-bottom: 0.42666667rem;
+}

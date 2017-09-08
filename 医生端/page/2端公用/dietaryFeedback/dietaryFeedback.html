@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>膳食反馈</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="dietaryFeedback.css">
+	<link rel="stylesheet" href="../../src/css/index.css">
+	<link rel="stylesheet" href="../../src/css/datetimepicker.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="sportFeedback">
+		<div class="chart-wrapper">
+			<div class="topbar clearfix" style="padding-top:20px;">
+				<div class="bar active"><p class="btn">周</p></div>
+				<div class="bar"><p class="btn">月</p></div>
+				<div class="bar"><p class="btn">年</p></div>
+			</div>
+			<div class="msg">
+				<h4 class="item">热量摄入 <span class="numerical">1023</span></h4>
+				<ul class="subList clearfix">
+					<li class="subitem"></li>
+					<li class="subitem">早:3500/中:234/晚:456</li>
+				</ul>
+				<div class="time">今日 17:39</div>
+			</div>
+			<div id="chart"></div>
+		</div>
+		<div class="status">
+			<div class="feedbackWrapper">
+				<a href="#">
+					<img src="../../src/image/meal_1.png" class="meal" height="60" width="57" alt="">膳食反馈<img src="../../src/image/jt_right.png" class="arrow_right" height="38" width="38" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="dateWrapper">
+			<div class="date">
+				<img src="../../src/image/meal_time.png" height="32" class="mealTime" width="35" alt=""><input type="text" class="reportTime" id="findTime" readonly>
+			</div>
+			<div class="timeTabs clearfix">
+				<div class="tab active">早</div>
+				<div class="tab">中</div>
+				<div class="tab">晚</div>
+			</div>
+		</div>
+		<div class="table-wrapper">
+			<table id="table1">
+				<thead>
+					<tr>
+						<th>食物名称</th>
+						<th>重量 (预)</th>
+						<th>实际重量</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td rowspan="2">麦胚面包</td>
+						<td>50g</td>
+						<td><input type="text" class="inp inp1" value="50g"></td>
+						<td><button class="success btn">完成</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" class="composition-wrapper">组成: <span class="composition"></span><a href="../nutrition/nutrition.html"><img src="../../src/image/jt_right.png" height="38" width="38" alt=""></a></td>
+					</tr>
+					<tr>
+						<td rowspan="2">无糖豆浆</td>
+						<td>250g</td>
+						<td><input type="text" class="inp inp1" value="250g"></td>
+						<td><button class="success btn">完成</button></td>
+					</tr>
+					<tr>
+						<td colspan="3" class="composition-wrapper">组成: <span class="composition">豆浆</span><a href="../nutrition/nutrition.html"><img src="../../src/image/jt_right.png" height="38" width="38" alt=""></a></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="table-title">
+				热能及三大营养素评价表
+			</div>
+			<table id="table2">
+				<thead>
+					<tr>
+						<th>供能营养素</th>
+						<th>推荐摄入量</th>
+						<th>实际摄入量</th>
+						<th>百分比</th>
+						<th>评价</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>热能(千卡)</td>
+						<td>2000</td>
+						<td class="colorGreen">1345.2</td>
+						<td>69%</td>
+						<td>摄入不足</td>
+					</tr>
+					<tr>
+						<td>碳水化合物(g)</td>
+						<td></td>
+						<td class="colorGreen"></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>脂肪(g)</td>
+						<td></td>
+						<td class="colorGreen"></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>蛋白质(g)</td>
+						<td></td>
+						<td class="colorGreen"></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="../../src/js/index.js"></script>
+	<script src="../../src/lib/datetimepicker.js"></script>
+	<script src="dietaryFeedback.js"></script>
+</body>
+</html>

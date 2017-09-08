@@ -1,0 +1,80 @@
+#healthInformation{
+	background-color: #fff;
+	min-height: 1334/46.875rem;
+	.title{
+		font-size: 30/46.875rem;
+		color: #53ac33;
+		height: 74/46.875rem;
+		line-height: 74/46.875rem;
+		border-bottom: 1px solid #eeeeee;
+		padding-left: 29/46.875rem;
+		box-sizing: border-box;
+		img{
+			width: 24/46.875rem;
+			height: 24/46.875rem;
+		}
+	}
+	.infoList{
+		.item{
+			padding: 16/46.875rem 30/46.875rem 16/46.875rem 28/46.875rem;
+			box-sizing: border-box;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: #333333;
+			}
+			.thumbnail{
+				float: left;
+				img{
+					width: 168/46.875rem;
+					height: 124/46.875rem;
+				}
+			}
+			.msg{
+				float: left;
+				margin-left: 22/46.875rem;
+				width: 492/46.875rem;
+				.text{
+					font-size: 30/46.875rem;
+					line-height: 48/46.875rem;
+				}
+			}
+			.time{
+				position: absolute;
+				right: 30/46.875rem;
+				bottom: 16/46.875rem;
+				font-size: 26/46.875rem;
+				color: #666666;
+			}
+		}
+	}
+	.option-wrapper{
+		padding: 48/46.875rem 54/46.875rem 14/46.875rem 46/46.875rem;
+		box-sizing: border-box;
+		display: none;
+		.option-list{
+			.option{
+				width: 118/46.875rem;
+				height: 62/46.875rem;
+				line-height: 62/46.875rem;
+				border:1px solid #bfbfbf;
+				margin-right: 1.13rem;
+				margin-bottom: 40/46.875rem;
+				border-radius: 8/46.875rem;
+				text-align: center;
+				font-size: 30/46.875rem;
+				float: left;
+				&.active{
+					color: #22ac38;
+					border-color: #22ac38;
+				}
+				&:nth-of-type(4n){
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

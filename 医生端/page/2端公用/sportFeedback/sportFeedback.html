@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>运动反馈</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="sportFeedback.css">
+	<link rel="stylesheet" href="../../src/css/index.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="sportFeedback">
+		<div class="chart-wrapper">
+			<div class="header">
+				<div class="backWrapper1">
+					<a href="#"><img src="../../src/image/jt_left_White.png" class="arrow" height="38" width="38" alt=""></a>
+					<span>运动反馈</span>
+					<a href="#"><img src="../../src/image/more.png" height="10" class="more" width="36" alt=""></a>
+				</div>
+				<div class="backWrapper2">
+					<span class="cancel">取消</span>
+					<span>运动反馈</span>
+					<span class="complete">完成</span>
+				</div>
+			</div>
+			<div class="topbar clearfix">
+				<div class="bar active"><p class="btn">周</p></div>
+				<div class="bar"><p class="btn">月</p></div>
+				<div class="bar"><p class="btn">年</p></div>
+			</div>
+			<div class="msg">
+				<h4 class="item">能量消耗 <span class="numerical">1358大卡</span></h4>
+				<ul class="subList clearfix">
+					<li class="subitem"></li>
+					<li class="subitem"></li>
+					<li class="subitem">目标值: 1450大卡</li>
+					<li class="subitem"></li>
+				</ul>
+				<div class="time">今日 17:39</div>
+			</div>
+			<div id="chart"></div>
+		</div>
+		<div class="status"><img src="../../src/image/smile.png" height="42" width="44" alt="">恭喜哦！今日完美完成运动目标，再接再厉！！！</div>
+		<div class="cardList">
+			<div class="card">体重 (kg) <input type="text" class="inp" onkeyup= "value=value.replace(/[^\d.]/g,'') "></div>
+			<div class="card select">运动类型<img src="../../src/image/jt_bottom.png" height="38" width="38" alt=""><input type="text" id="multiPickerInput" class="unit" readonly value="跑步"></div>
+			<div class="card">运动时间 (h) <input type="text" class="inp" onkeyup= "value=value.replace(/[^\d.]/g,'') "></div>
+		</div>
+		<div id="targetContainer"></div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="../../src/js/index.js"></script>
+	<script src="sportFeedback.js"></script>
+</body>
+</html>

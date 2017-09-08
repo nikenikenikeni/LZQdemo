@@ -1,0 +1,93 @@
+#questionnaire{
+	.subTabs{
+		background-color: #fff;
+		height: 72/46.875rem;
+		line-height: 72/46.875rem;
+		border-bottom: 1px solid #eeeeee;
+		.subTab{
+			float: left;
+			width: 33.33%;
+			height: 100%;
+			text-align: center;
+			&.active{
+				span{
+					color: #53ac33;
+					border-bottom: 1px solid  #53ac33;
+				}
+			}
+			span{
+				font-size: 26/46.875rem;
+				color: #333333;
+				padding: 0 14/46.875rem 0.2rem;
+			}
+		}
+	}
+	.view-wrapper{
+		position: relative;
+		left: 0;
+		.view{
+			float: left;
+			.list{
+				margin-top: 52/46.875rem;
+				.item{
+					height: 128/46.875rem;
+					line-height: 88/46.875rem;
+					background-color: #fff;
+					padding: 20/46.875rem 30/46.875rem;
+					box-sizing: border-box;
+					border-bottom: 1px solid #eeeeee;
+					.avatar{
+						float: left;
+						margin-right: 40/46.875rem;
+						img{
+							width: 88/46.875rem;
+							height: 88/46.875rem;
+							vertical-align: top;
+							border-radius: 50%;
+						}
+					}
+					.name{
+						float: left;
+						font-size: 26/46.875rem;
+					}
+					.time{
+						float: right;
+						font-size: 26/46.875rem;
+						margin-right: 36/46.875rem;
+					}
+				}
+			}
+			.detail{
+				.text{
+					margin: 24/46.875rem 0;
+					font-size: 26/46.875rem;
+					line-height: 36/46.875rem;
+					text-indent: 2em;
+					background-color: #fff;
+					padding: 20/46.875rem 42/46.875rem 26/46.875rem;
+					box-sizing: border-box;
+				}
+				.questionList{
+					.question{
+						background-color: #fff;
+						padding: 28/46.875rem 40/46.875rem 32/46.875rem;
+						border-bottom: 1px solid #dcdcdc;
+						.title{
+							font-size: 28/46.875rem;
+						}
+						.answer{
+							float: left;
+							font-size: 28/46.875rem;
+							margin-top: 38/46.875rem;
+							margin-left: 0.7rem;
+							input{
+								margin: 0;
+								margin-right: 20/46.875rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

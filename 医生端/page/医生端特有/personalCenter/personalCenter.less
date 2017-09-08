@@ -1,0 +1,205 @@
+#personalCenter{
+	overflow: hidden;
+	width: 100%;
+	.card{
+		height: 186/46.875rem;
+		background-color: #fff;
+		padding: 40/46.875rem 0 24/46.875rem 30/46.875rem;
+		box-sizing: border-box;
+		background-image: url(../../src/image/per_bg.png);
+		background-size: cover;
+		background-position: center center;
+		.avatar{
+			float: left;
+			margin-right: 32/46.875rem;
+			img{
+				width: 120/46.875rem;
+				height: 120/46.875rem;
+				border-radius: 50%;
+			}
+		}
+		.msg{
+			float: left;
+			.name{
+				font-weight: 400;
+				font-size: 32/46.875rem;
+				margin-top: 28/46.875rem;
+				color: #fff;
+			}
+			.text{
+				font-size: 24/46.875rem;
+				margin-top: 20/46.875rem;
+				color: #fff;
+			}
+		}
+		.arrow{
+			float: right;
+			width: 28/46.875rem;
+			height: 28/46.875rem;
+			vertical-align: top;
+			margin-top: 45/46.875rem;
+			margin-right: 84/46.875rem;
+		}
+	}
+	.topbar{
+		height: 116/46.875rem;
+		margin-top: 4/46.875rem;
+		margin-bottom: 30/46.875rem;
+		.bar{
+			width: 33.33%;
+			height: 100%;
+			float: left;
+			text-align: center;
+			background-color: #fff;
+			&.active{
+				background-color: #eeeeee;
+			}
+			img{
+				width: 44/46.875rem;
+				height: 44/46.875rem;
+				margin-top: 14/46.875rem;
+			}
+			.text{
+				font-size: 26/46.875rem;
+				margin-top: 16/46.875rem;
+			}
+		}
+	}
+	.view-wrapper{
+		position: relative;
+		left: 0;
+		.view{
+			float: left;
+			overflow: hidden;
+			.surveyList{
+				.item{
+					margin-top: 22/46.875rem;
+					height: 88/46.875rem;
+					line-height: 88/46.875rem;
+					font-size: 30/46.875rem;
+					padding-left: 30/46.875rem;
+					box-sizing: border-box;
+					position: relative;
+					margin-top: 22/46.875rem;
+					background-color: #fff;
+					a{
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+					.arrow{
+						width: 38/46.875rem;
+						height: 38/46.875rem;
+						position: absolute;
+						right: 34/46.875rem;
+						top: 30/46.875rem;
+					}
+				}
+			}
+			.list{
+				.item{
+					height: 120/46.875rem;
+					margin-top: 20/46.875rem;
+					background-color: #fff;
+					padding: 14/46.875rem 41/46.875rem 22/46.875rem;
+					position: relative;
+					box-sizing: border-box;
+					a{
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+					.title{
+						font-size: 30/46.875rem;
+						color: #333333;
+						margin-bottom: 26/46.875rem;
+						.radios{
+							display: inline-block;
+							border-radius: 50%;
+							margin-right: 22/46.875rem;
+							width: 24/46.875rem;
+							height: 24/46.875rem;
+							background-color: #ff0000;
+							&.overdue{
+								background-color: #dcdcdc;
+							}
+						}
+					}
+					.text{
+						font-size: 26/46.875rem;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						color: #999999;
+					}
+					.time{
+						position: absolute;
+						right: 28/46.875rem;
+						top: 30/46.875rem;
+						font-size: 26/46.875rem;
+						color: #999999;
+					}
+				}
+			}
+			.subTabs{
+				background-color: #fff;
+				height: 72/46.875rem;
+				line-height: 72/46.875rem;
+				border-bottom: 1px solid #eeeeee;
+				.subTab{
+					float: left;
+					width: 33.33%;
+					height: 100%;
+					text-align: center;
+					&.active{
+						span{
+							color: #53ac33;
+							border-bottom: 1px solid  #53ac33;
+						}
+					}
+					span{
+						font-size: 26/46.875rem;
+						color: #333333;
+						padding: 0 14/46.875rem 0.2rem;
+					}
+				}
+			}
+			.container{
+				position: relative;
+				left: 0;
+				.ctar{
+					float: left;
+					.ctar-list{
+						.ctar-item{
+							height: 128/46.875rem;
+							line-height: 88/46.875rem;
+							background-color: #fff;
+							padding: 20/46.875rem 30/46.875rem;
+							box-sizing: border-box;
+							border-bottom: 1px solid #eeeeee;
+							.avatar{
+								float: left;
+								margin-right: 40/46.875rem;
+								img{
+									width: 88/46.875rem;
+									height: 88/46.875rem;
+									vertical-align: top;
+									border-radius: 50%;
+								}
+							}
+							.name{
+								float: left;
+								font-size: 26/46.875rem;
+							}
+							.time{
+								float: right;
+								font-size: 26/46.875rem;
+								margin-right: 36/46.875rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

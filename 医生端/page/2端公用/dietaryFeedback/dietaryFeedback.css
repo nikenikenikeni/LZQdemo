@@ -1,0 +1,254 @@
+#sportFeedback .chart-wrapper {
+  height: 13rem;
+  background: url(../../src/image/img_meal.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+}
+#sportFeedback .chart-wrapper .topbar .bar {
+  float: left;
+  width: 33%;
+}
+#sportFeedback .chart-wrapper .topbar .bar .btn {
+  font-size: 0.55466667rem;
+  color: #fff;
+  width: 1.74933333rem;
+  height: 0.896rem;
+  line-height: 0.896rem;
+  border-radius: 0.42666667rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#sportFeedback .chart-wrapper .topbar .bar.active .btn {
+  background-color: #fff;
+  color: #22ac38;
+}
+#sportFeedback .chart-wrapper .msg {
+  margin: 0.98133333rem 0.512rem 0rem;
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+#sportFeedback .chart-wrapper .msg .item {
+  font-size: 0.59733333rem;
+  color: #fff;
+  font-weight: 400;
+}
+#sportFeedback .chart-wrapper .msg .item .numerical {
+  float: right;
+}
+#sportFeedback .chart-wrapper .msg .subList {
+  width: 9.89866667rem;
+  margin-top: 0.27733333rem;
+}
+#sportFeedback .chart-wrapper .msg .subList .subitem {
+  width: 9.89866667rem;
+  float: left;
+  font-size: 0.46933333rem;
+  color: #fff;
+  margin-bottom: 0.21333333rem;
+}
+#sportFeedback .chart-wrapper .msg .time {
+  position: absolute;
+  right: 0;
+  bottom: 0.21333333rem;
+  color: #fff;
+  font-size: 0.42666667rem;
+}
+#sportFeedback #chart {
+  height: 8.32rem;
+}
+#sportFeedback .status {
+  height: 3.54133333rem;
+  line-height: 3.54133333rem;
+  font-size: 0.55466667rem;
+  background-color: #f0f1f1;
+}
+#sportFeedback .status .feedbackWrapper {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  border-radius: 0.85333333rem 0 0 0.85333333rem;
+  width: 6.48533333rem;
+  float: right;
+  margin-top: 0.896rem;
+  font-size: 0.64rem;
+}
+#sportFeedback .status .feedbackWrapper a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#sportFeedback .status .feedbackWrapper .meal {
+  width: 1.28rem;
+  height: 1.28rem;
+  vertical-align: top;
+  margin-left: 0.68266667rem;
+  margin-right: 0.46933333rem;
+  margin-top: 0.17066667rem;
+}
+#sportFeedback .status .feedbackWrapper .arrow_right {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  float: right;
+  margin-right: 0.64rem;
+  margin-top: 0.5rem;
+}
+#sportFeedback .dateWrapper {
+  height: 4.608rem;
+  background-color: #fff;
+}
+#sportFeedback .dateWrapper .date {
+  height: 0.85333333rem;
+  padding-top: 0.768rem;
+}
+#sportFeedback .dateWrapper .mealTime {
+  width: 0.768rem;
+  height: 0.768rem;
+  vertical-align: top;
+  margin-left: 5.632rem;
+  margin-right: 0.29866667rem;
+}
+#sportFeedback .dateWrapper .reportTime {
+  border: none;
+  text-align: left;
+  height: 100%;
+  vertical-align: top;
+  font-size: 0.64rem;
+  color: #53ac33;
+}
+#sportFeedback .dateWrapper .timeTabs {
+  width: 12.84266667rem;
+  margin: 1.024rem auto 0;
+  border: 2px solid #53ac33;
+  border-radius: 0.17066667rem;
+}
+#sportFeedback .dateWrapper .timeTabs .tab {
+  float: left;
+  font-size: 0.512rem;
+  color: #53ac33;
+  background-color: #fff;
+  text-align: center;
+  height: 1.152rem;
+  line-height: 1.152rem;
+  width: 4.224rem;
+  border-right: 2px solid #53ac33;
+}
+#sportFeedback .dateWrapper .timeTabs .tab:last-child {
+  border-right: 0;
+}
+#sportFeedback .dateWrapper .timeTabs .tab.active {
+  color: #fff;
+  background-color: #53ac33;
+}
+#sportFeedback .table-wrapper {
+  margin-top: 0.64rem;
+}
+#sportFeedback .table-wrapper #table1 {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 0.81066667rem;
+}
+#sportFeedback .table-wrapper #table1 th {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  font-weight: 400;
+  font-size: 0.512rem;
+  color: #8c8c8c;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+#sportFeedback .table-wrapper #table1 th:last-child {
+  border-right: 0;
+}
+#sportFeedback .table-wrapper #table1 td {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  text-align: center;
+  font-size: 0.512rem;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  width: 25%;
+  color: #666666;
+}
+#sportFeedback .table-wrapper #table1 td:last-child {
+  border-right: 0;
+}
+#sportFeedback .table-wrapper #table1 td .inp {
+  width: 100%;
+  border: none;
+  text-align: center;
+  color: #53ac33;
+}
+#sportFeedback .table-wrapper #table1 td .btn {
+  width: 2.47466667rem;
+  height: 0.896rem;
+  font-size: 0.512rem;
+  color: #fff;
+  background-color: #53ac33;
+  border: none;
+  border-radius: 0.17066667rem;
+}
+#sportFeedback .table-wrapper #table1 .composition-wrapper {
+  text-align: left;
+  padding: 0 0.53333333rem;
+  box-sizing: border-box;
+}
+#sportFeedback .table-wrapper #table1 .composition-wrapper img {
+  float: right;
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  margin-right: 0.64rem;
+  margin-top: 0.55466667rem;
+}
+#sportFeedback .table-wrapper .table-title {
+  height: 1.70666667rem;
+  line-height: 1.70666667rem;
+  font-size: 0.59733333rem;
+  text-align: center;
+  font-weight: 700;
+  color: #53ac33;
+  background-color: #f4ddd2;
+}
+#sportFeedback .table-wrapper #table2 {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 0.81066667rem;
+}
+#sportFeedback .table-wrapper #table2 th {
+  height: 1.408rem;
+  line-height: 1.408rem;
+  font-weight: 400;
+  font-size: 0.512rem;
+  color: #8c8c8c;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+#sportFeedback .table-wrapper #table2 th:last-child {
+  border-right: 0;
+}
+#sportFeedback .table-wrapper #table2 td {
+  height: 1.45066667rem;
+  line-height: 1.45066667rem;
+  text-align: center;
+  font-size: 0.512rem;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  color: #666666;
+}
+#sportFeedback .table-wrapper #table2 td:nth-of-type(1) {
+  width: 25%;
+}
+#sportFeedback .table-wrapper #table2 td:nth-of-type(2) {
+  width: 20%;
+}
+#sportFeedback .table-wrapper #table2 td:nth-of-type(3) {
+  width: 20%;
+}
+#sportFeedback .table-wrapper #table2 td:nth-of-type(4) {
+  width: 15%;
+}
+#sportFeedback .table-wrapper #table2 td:nth-of-type(5) {
+  width: 20%;
+  border-right: 0;
+}

@@ -1,0 +1,178 @@
+#client .card {
+  height: 3.968rem;
+  background-color: #fff;
+  margin-bottom: 0.512rem;
+  padding: 0.85333333rem 0 0.512rem 0.64rem;
+  box-sizing: border-box;
+}
+#client .card .avatar {
+  float: left;
+  margin-right: 0.68266667rem;
+}
+#client .card .avatar img {
+  width: 2.56rem;
+  height: 2.56rem;
+  border-radius: 50%;
+}
+#client .card .msg {
+  float: left;
+}
+#client .card .msg h5 {
+  font-weight: 400;
+  font-size: 0.68266667rem;
+  margin-top: 0.59733333rem;
+}
+#client .card .msg h5 .schedule {
+  margin-left: 0.59733333rem;
+  font-size: 0.512rem;
+  color: #53ac33;
+}
+#client .card .msg h5 .schedule img {
+  width: 0.768rem;
+  height: 0.768rem;
+  vertical-align: top;
+  margin-right: 0.17066667rem;
+}
+#client .card .msg .text {
+  font-size: 0.512rem;
+  margin-top: 0.42666667rem;
+}
+#client .card .msg .text .age {
+  margin-left: 0.55466667rem;
+}
+#client .card .state {
+  float: right;
+  background-color: #89c997;
+  width: 5.16266667rem;
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  border-radius: 0.768rem 0 0 0.768rem;
+  font-size: 0.55466667rem;
+  color: #fff;
+  margin-top: 0.21333333rem;
+}
+#client .card .state a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+#client .card .state .zhu {
+  vertical-align: top;
+  width: 0.768rem;
+  height: 0.768rem;
+  margin-top: 0.55466667rem;
+  margin-left: 0.42666667rem;
+  margin-right: 0.29866667rem;
+}
+#client .card .state .arrow {
+  width: 0.59733333rem;
+  height: 0.59733333rem;
+  vertical-align: top;
+  margin-top: 0.64rem;
+  margin-left: 0.384rem;
+}
+#client .monitoring-wrapper {
+  margin-bottom: 0.55466667rem;
+}
+#client .monitoring-wrapper .title {
+  padding: 0.34133333rem 0.64rem;
+  box-sizing: border-box;
+  height: 1.49333333rem;
+  line-height: 0.768rem;
+  font-size: 0.55466667rem;
+  color: #53ac33;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+}
+#client .monitoring-wrapper .title .heng {
+  display: inline-block;
+  width: 0.29866667rem;
+  height: 0.768rem;
+  vertical-align: top;
+  margin-right: 0.42666667rem;
+  background-color: #53ac33;
+}
+#client .monitoring-wrapper .monitoring {
+  padding-bottom: 0.74666667rem;
+  background-color: #fff;
+}
+#client .monitoring-wrapper .monitoring .item {
+  height: 1.92rem;
+}
+#client .monitoring-wrapper .monitoring .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#client .monitoring-wrapper .monitoring .item .icon-wrapper {
+  width: 2.048rem;
+  height: 100%;
+  text-align: center;
+  float: left;
+}
+#client .monitoring-wrapper .monitoring .item .icon-wrapper img {
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  margin-top: 0.5rem;
+}
+#client .monitoring-wrapper .monitoring .item .project {
+  float: left;
+  width: 13.90933333rem;
+  height: 1.92rem;
+  line-height: 1.92rem;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  padding-left: 0.128rem;
+  box-sizing: border-box;
+}
+#client .monitoring-wrapper .monitoring .item .project .text {
+  font-size: 0.55466667rem;
+}
+#client .monitoring-wrapper .monitoring .item .project .arrow {
+  position: absolute;
+  right: 0.98133333rem;
+  top: 0.64rem;
+  width: 0.768rem;
+  height: 0.768rem;
+}
+#client .monitoring-wrapper .monitoring .contact .block {
+  height: 3.584rem;
+  background-color: #f0f1f1;
+}
+#client .monitoring-wrapper .monitoring .contact .content {
+  background-color: #fff;
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  font-size: 0.55466667rem;
+  position: relative;
+}
+#client .monitoring-wrapper .monitoring .contact .content a {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+#client .monitoring-wrapper .monitoring .contact .content .logo {
+  width: 1.152rem;
+  height: 1.152rem;
+  margin-left: 0.704rem;
+  margin-right: 0.384rem;
+  margin-top: 0.34133333rem;
+  display: inline-block;
+  vertical-align: top;
+}
+#client .monitoring-wrapper .monitoring .contact .content .phone {
+  position: absolute;
+  right: 3.79733333rem;
+  top: 0.42666667rem;
+  width: 1.024rem;
+  height: 1.024rem;
+}
+#client .monitoring-wrapper .monitoring .contact .content .erweima {
+  position: absolute;
+  right: 1.06666667rem;
+  top: 0.42666667rem;
+  width: 1.024rem;
+  height: 1.024rem;
+}

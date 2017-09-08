@@ -1,0 +1,261 @@
+#sportFeedback{
+	.chart-wrapper{
+		height: 13rem;
+		background: url(../../src/image/img_meal.png) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		box-sizing: border-box;
+		.topbar{
+			.bar{
+				float: left;
+				width: 33%;
+				.btn{
+					font-size: 26/46.875rem;
+					color: #fff;
+					width: 82/46.875rem;
+					height: 42/46.875rem;
+					line-height: 42/46.875rem;
+					border-radius: 20/46.875rem;
+					margin: 0 auto;
+					text-align: center;
+				}
+				&.active{
+					.btn{
+						background-color: #fff;
+						color: #22ac38;
+					}
+				}
+			}
+		}
+		.msg{
+			margin: 46/46.875rem 24/46.875rem 0/46.875rem;
+			position: relative;
+			border-bottom: 1px solid #fff;
+			.item{
+				font-size: 28/46.875rem;
+				color: #fff;
+				font-weight: 400;
+				.numerical{
+					float: right;
+				}
+			}
+			.subList{
+				width: 464/46.875rem;
+				margin-top: 13/46.875rem;
+				.subitem{
+					width: 464/46.875rem;
+					float: left;
+					font-size: 22/46.875rem;
+					color: #fff;
+					margin-bottom: 10/46.875rem;
+				}
+			}
+			.time{
+				position: absolute;
+				right: 0;
+				bottom: 10/46.875rem;;
+				color: #fff;
+				font-size: 20/46.875rem;
+
+			}
+		}
+	}
+	#chart{
+		height: 390/46.875rem;
+	}
+	.status{
+		height: 166/46.875rem;
+		line-height: 166/46.875rem;
+		font-size: 26/46.875rem;
+		background-color: #f0f1f1;
+		.feedbackWrapper{
+			height: 88/46.875rem;
+			line-height: 88/46.875rem;
+			background-color: #fff;
+			border-radius: 40/46.875rem 0 0 40/46.875rem;
+			width: 304/46.875rem;
+			float: right;
+			margin-top: 42/46.875rem;
+			font-size: 30/46.875rem;
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: #333333;
+			}
+			.meal{
+				width: 60/46.875rem;
+				height: 60/46.875rem;
+				vertical-align: top;
+				margin-left: 32/46.875rem;
+				margin-right: 22/46.875rem;
+				margin-top: 8/46.875rem;
+			}
+			.arrow_right{
+				width: 38/46.875rem;
+				height: 38/46.875rem;
+				float: right;
+				margin-right: 30/46.875rem;
+				margin-top: 0.5rem;
+			}
+		}
+	}
+	.dateWrapper{
+		height: 216/46.875rem;
+		background-color: #fff;
+		.date{
+			height: 40/46.875rem;
+			padding-top: 36/46.875rem;
+		}
+		.mealTime{
+			width: 36/46.875rem;
+			height: 36/46.875rem;
+			vertical-align: top;
+			margin-left: 264/46.875rem;
+			margin-right: 14/46.875rem;
+		}
+		.reportTime{
+			border:none;
+			text-align: left;
+			height: 100%;
+			vertical-align: top;
+			font-size: 30/46.875rem;
+			color: #53ac33;
+		}
+		.timeTabs{
+			width: 602/46.875rem;
+			margin: 48/46.875rem auto 0;
+			border:2px solid #53ac33;
+			border-radius: 8/46.875rem;
+			.tab{
+				float: left;
+				font-size: 24/46.875rem;
+				color: #53ac33;
+				background-color: #fff;
+				text-align: center;
+				height: 54/46.875rem;
+				line-height: 54/46.875rem;
+				width: 198/46.875rem;
+				border-right: 2px solid #53ac33;
+				&:last-child{
+					border-right: 0;
+				}
+				&.active{
+					color: #fff;
+					background-color: #53ac33;
+				}
+			}
+		}
+	}
+	.table-wrapper{
+		margin-top: 30/46.875rem;
+		#table1{
+			background-color: #fff;
+			width: 100%;
+			margin-bottom: 38/46.875rem;
+			th{
+				height: 88/46.875rem;
+				line-height: 88/46.875rem;
+				font-weight: 400;
+				font-size: 24/46.875rem;
+				color: #8c8c8c;
+				border-bottom: 1px solid #e5e5e5;
+				border-right: 1px solid #e5e5e5;
+				&:last-child{
+					border-right: 0;
+				}
+			}
+			td{
+				height: 88/46.875rem;
+				line-height: 88/46.875rem;
+				text-align: center;
+				font-size: 24/46.875rem;
+				border-right: 1px solid #e5e5e5;
+				border-bottom: 1px solid #e5e5e5;
+				width: 25%;
+				color: #666666;
+				&:last-child{
+					border-right: 0;
+				}
+				.inp{
+					width: 100%;
+					border: none;
+					text-align: center;
+					color: #53ac33;
+				}
+				.btn{
+					width: 116/46.875rem;
+					height: 42/46.875rem;
+					font-size: 24/46.875rem;
+					color: #fff;
+					background-color: #53ac33;
+					border: none;
+					border-radius: 8/46.875rem;
+				}
+			}
+			.composition-wrapper{
+				text-align: left;
+				padding: 0 25/46.875rem;
+				box-sizing: border-box;
+				img{
+					float: right;
+					width: 38/46.875rem;
+					height: 38/46.875rem;
+					margin-right: 30/46.875rem;
+					margin-top: 26/46.875rem;
+				}
+			}
+		}
+		.table-title{
+			height: 80/46.875rem;
+			line-height: 80/46.875rem;
+			font-size: 28/46.875rem;
+			text-align: center;
+			font-weight: 700;
+			color: #53ac33;
+			background-color: #f4ddd2;
+		}
+		#table2{
+			background-color: #fff;
+			width: 100%;
+			margin-bottom: 38/46.875rem;
+			th{
+				height: 66/46.875rem;
+				line-height: 66/46.875rem;
+				font-weight: 400;
+				font-size: 24/46.875rem;
+				color: #8c8c8c;
+				border-bottom: 1px solid #e5e5e5;
+				border-right: 1px solid #e5e5e5;
+				&:last-child{
+					border-right: 0;
+				}
+			}
+			td{
+				height: 68/46.875rem;
+				line-height: 68/46.875rem;
+				text-align: center;
+				font-size: 24/46.875rem;
+				border-right: 1px solid #e5e5e5;
+				border-bottom: 1px solid #e5e5e5;
+				color: #666666;
+				&:nth-of-type(1){
+					width: 25%;
+				}
+				&:nth-of-type(2){
+					width: 20%;
+				}
+				&:nth-of-type(3){
+					width: 20%;
+				}
+				&:nth-of-type(4){
+					width: 15%;
+				}
+				&:nth-of-type(5){
+					width: 20%;
+					border-right: 0;
+				}
+			}
+		}
+	}
+}

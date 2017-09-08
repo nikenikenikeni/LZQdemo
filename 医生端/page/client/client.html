@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>客户</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="client.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="client">
+		<div class="card clearfix">
+			<div class="avatar">
+				<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+			</div>
+			<div class="msg">
+				<h5>阿狸 <span class="schedule"><img src="../../src/image/meal_time.png" height="32" width="35" alt="">日程</span></h5>
+				<p class="text">女 <span class="age">36岁</span></p>
+			</div>
+			<div class="state">
+				<a href="#">
+					<img src="../../src/image/status.png" class="zhu" height="36" width="36" alt="">安排状态<img src="../../src/image/jt_right_White.png" height="38" width="38" class="arrow" alt="">
+				</a>
+			</div>
+		</div>
+		<div class="monitoring-wrapper">
+			<div class="title"><div class="heng"></div>健康监测</div>
+			<ul class="monitoring">
+				<!-- <li class="item clearfix">
+					<a href="#">
+						<div class="icon-wrapper">
+							<img src="../../src/image/Hw.png" height="50" width="50">
+						</div>
+						<div class="project">
+							<p class="text">身高体重</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li> -->
+				<li class="item clearfix">
+					<a href="../bloodSugar/bloodSugar.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/blood_sugar.png" height="50" width="50">
+						</div>
+						<div class="project">
+							<p class="text">血糖</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodLipids/bloodLipids.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/Blood_lipids.png" height="50" width="50">
+						</div>
+						<div class="project">
+							<p class="text">血脂</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodPressure/bloodPressure.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/blood_pressure.png" height="50" width="50">
+						</div>
+						<div class="project">
+							<p class="text">血压</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodLipids/bloodLipids.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/sport.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">运动反馈</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodPressure/bloodPressure.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/meal.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">膳食反馈</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="monitoring-wrapper">
+			<div class="title"><div class="heng"></div>EHR健康档案</div>
+			<ul class="monitoring">
+				<li class="item clearfix">
+					<a href="#">
+						<div class="icon-wrapper">
+							<img src="../../src/image/jbzl.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">基本资料</p>
+							<img src="../../src/image/jt_right.png" height="38" width="38" class="arrow">
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodSugar/bloodSugar.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/icon_health.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">健康干预</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodLipids/bloodLipids.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/Beauty.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">医疗美容</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodPressure/bloodPressure.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/Medical_records.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">电子病历</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodLipids/bloodLipids.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/report.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">我的报告</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodPressure/bloodPressure.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/advisory.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">咨询记录</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../bloodPressure/bloodPressure.html">
+						<div class="icon-wrapper">
+							<img src="../../src/image/Questionnaire.png" height="44" width="44">
+						</div>
+						<div class="project">
+							<p class="text">调查问卷</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="client.js">
+</body>
+</html>

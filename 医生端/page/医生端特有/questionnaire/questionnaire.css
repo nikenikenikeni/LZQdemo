@@ -1,0 +1,85 @@
+#questionnaire .subTabs {
+  background-color: #fff;
+  height: 1.536rem;
+  line-height: 1.536rem;
+  border-bottom: 1px solid #eeeeee;
+}
+#questionnaire .subTabs .subTab {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+}
+#questionnaire .subTabs .subTab.active span {
+  color: #53ac33;
+  border-bottom: 1px solid  #53ac33;
+}
+#questionnaire .subTabs .subTab span {
+  font-size: 0.55466667rem;
+  color: #333333;
+  padding: 0 0.29866667rem 0.2rem;
+}
+#questionnaire .view-wrapper {
+  position: relative;
+  left: 0;
+}
+#questionnaire .view-wrapper .view {
+  float: left;
+}
+#questionnaire .view-wrapper .view .list {
+  margin-top: 1.10933333rem;
+}
+#questionnaire .view-wrapper .view .list .item {
+  height: 2.73066667rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  padding: 0.42666667rem 0.64rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eeeeee;
+}
+#questionnaire .view-wrapper .view .list .item .avatar {
+  float: left;
+  margin-right: 0.85333333rem;
+}
+#questionnaire .view-wrapper .view .list .item .avatar img {
+  width: 1.87733333rem;
+  height: 1.87733333rem;
+  vertical-align: top;
+  border-radius: 50%;
+}
+#questionnaire .view-wrapper .view .list .item .name {
+  float: left;
+  font-size: 0.55466667rem;
+}
+#questionnaire .view-wrapper .view .list .item .time {
+  float: right;
+  font-size: 0.55466667rem;
+  margin-right: 0.768rem;
+}
+#questionnaire .view-wrapper .view .detail .text {
+  margin: 0.512rem 0;
+  font-size: 0.55466667rem;
+  line-height: 0.768rem;
+  text-indent: 2em;
+  background-color: #fff;
+  padding: 0.42666667rem 0.896rem 0.55466667rem;
+  box-sizing: border-box;
+}
+#questionnaire .view-wrapper .view .detail .questionList .question {
+  background-color: #fff;
+  padding: 0.59733333rem 0.85333333rem 0.68266667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+#questionnaire .view-wrapper .view .detail .questionList .question .title {
+  font-size: 0.59733333rem;
+}
+#questionnaire .view-wrapper .view .detail .questionList .question .answer {
+  float: left;
+  font-size: 0.59733333rem;
+  margin-top: 0.81066667rem;
+  margin-left: 0.7rem;
+}
+#questionnaire .view-wrapper .view .detail .questionList .question .answer input {
+  margin: 0;
+  margin-right: 0.42666667rem;
+}

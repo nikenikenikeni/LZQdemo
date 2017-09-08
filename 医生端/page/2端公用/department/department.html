@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>科室</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="department.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="department">
+		<ul class="list">
+			<li class="department">
+				<a href="../disease/disease.html">
+					感染内科 <img src="../../src/image/jt_right.png" height="38" class="arrow" width="38" alt="">
+				</a>
+			</li>
+			<li class="department">
+				<a href="../disease/disease.html">
+					老年病内科 <img src="../../src/image/jt_right.png" height="38" class="arrow" width="38" alt="">
+				</a>
+			</li>
+			<li class="department">
+				<a href="../disease/disease.html">
+					风湿免疫内科 <img src="../../src/image/jt_right.png" height="38" class="arrow" width="38" alt="">
+				</a>
+			</li>
+			<li class="department">
+				<a href="../disease/disease.html">
+					消化内科 <img src="../../src/image/jt_right.png" height="38" class="arrow" width="38" alt="">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="department.js"></script>
+</body>
+</html>

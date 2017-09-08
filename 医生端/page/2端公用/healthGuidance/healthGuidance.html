@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>健康导诊</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="healthGuidance.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="healthGuidance">
+		<div class="img-wrapper">
+			<img src="../../src/image/test_banner.png" height="232" width="504" alt="">
+		</div>
+		<div class="content">
+			<p class="text">压力既可以是你生活的助手也可以变成生活的障碍。PSTR心理压力测试，帮助你了解自己面临的心理压力程度。</p>
+			<img src="../../src/image/referral_cont.png" height="128" width="128" class="decoration" alt="">
+			<div class="btn-wrapper">
+				<a href="../guidance/guidance.html">
+					<button class="btn">开始测试</button>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="healthGuidance.js"></script>
+</body>
+</html>

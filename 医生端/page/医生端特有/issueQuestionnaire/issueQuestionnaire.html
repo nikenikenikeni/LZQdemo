@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>问题调查问卷</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="issueQuestionnaire.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div class="issueQuestionnaire">
+		<div id="letter"></div>
+		<div class="sort_box">
+			<div class="sort_list">
+				<input type="checkbox" class="checkbox" name="name" value="张三" data-id="1">
+				<div class="num_logo">
+					<a href="../client/client.html">
+						<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+					</a>
+				</div>
+				<div class="num_name"><a href="../.../client/client.html">张三</a></div>
+			</div>
+			<div class="sort_list">
+				<input type="checkbox" class="checkbox" name="name" value="张哲" data-id="2">
+				<div class="num_logo">
+					<a href="../client/client.html"><img src="../../src/image/haski.jpg" height="300" width="400" alt=""></a>
+				</div>
+				<div class="num_name"><a href="../client/client.html">张哲</a></div>
+			</div>
+			<div class="sort_list">
+				<input type="checkbox" class="checkbox" name="name" value="edwin" data-id="3">
+				<div class="num_logo">
+					<a href="../client/client.html"><img src="../../src/image/haski.jpg" height="300" width="400" alt=""></a>
+				</div>
+				<div class="num_name"><a href="../client/client.html">edwin</a></div>
+			</div>
+			<div class="sort_list">
+				<input type="checkbox" class="checkbox" name="name" value="阿狸" data-id="4">
+				<div class="num_logo">
+					<a href="../client/client.html"><img src="../../src/image/haski.jpg" height="300" width="400" alt=""></a>
+				</div>
+				<div class="num_name"><a href="../client/client.html">阿狸</a></div>
+			</div>
+		</div>
+		<div class="initials">
+			<ul></ul>
+		</div>
+		
+		<div class="mark">
+			<div class="modal">
+				<div class="title">提示</div>
+				<p class="text"></p>
+				<div class="btnList">
+					<button class="cancel btn">取消</button><button class="send btn">发送</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/js/jquery.charfirst.pinyin.js"></script>
+	<script src="../../src/js/sort.js"></script>
+	<script src="issueQuestionnaire.js"></script>
+</body>
+</html>

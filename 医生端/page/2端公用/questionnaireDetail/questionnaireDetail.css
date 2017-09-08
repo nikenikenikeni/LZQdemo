@@ -1,0 +1,57 @@
+#questionnaireDetail {
+  background-color: #fff;
+  min-height: 28.45866667rem;
+  position: relative;
+}
+#questionnaireDetail .text {
+  background-color: #fff;
+  padding: 0.42666667rem 0.85333333rem 0.55466667rem;
+  box-sizing: border-box;
+  font-size: 0.55466667rem;
+  line-height: 0.768rem;
+}
+#questionnaireDetail .heng {
+  height: 0.512rem;
+  background-color: #f0f1f1;
+}
+#questionnaireDetail .quesitonList .item {
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 0 0.85333333rem;
+}
+#questionnaireDetail .quesitonList .item .title {
+  font-size: 0.55466667rem;
+  padding-top: 0.59733333rem;
+}
+#questionnaireDetail .quesitonList .item .answer-wrapper {
+  font-size: 0.55466667rem;
+  vertical-align: top;
+  margin-top: 0.81066667rem;
+  margin-bottom: 0.72533333rem;
+  padding-left: 0.64rem;
+}
+#questionnaireDetail .quesitonList .item .answer-wrapper .label {
+  margin-right: 0.85333333rem;
+}
+#questionnaireDetail .quesitonList .item .answer-wrapper input {
+  vertical-align: top;
+  margin: 0;
+  margin-right: 0.46933333rem;
+}
+#questionnaireDetail .btn-wrapper {
+  position: absolute;
+  bottom: 0.29866667rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#questionnaireDetail .btn-wrapper .btn {
+  width: 14.80533333rem;
+  border-radius: 0.17066667rem;
+  border: 0;
+  padding: 0;
+  height: 1.536rem;
+  background-color: #80c269;
+  color: #fff;
+  font-size: 0.64rem;
+}

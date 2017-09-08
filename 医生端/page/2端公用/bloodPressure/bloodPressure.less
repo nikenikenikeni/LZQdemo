@@ -1,0 +1,101 @@
+#bloodPressure{
+	.chart-wrapper{
+		height: 626/46.875rem;
+		background: url(../../src/image/img_blood.png) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		padding-top: 26/46.875rem;
+		box-sizing: border-box;
+		.topbar{
+			.bar{
+				float: left;
+				width: 25%;
+				.btn{
+					font-size: 26/46.875rem;
+					color: #fff;
+					width: 82/46.875rem;
+					height: 42/46.875rem;
+					line-height: 42/46.875rem;
+					border-radius: 20/46.875rem;
+					margin: 0 auto;
+					text-align: center;
+				}
+				&.active{
+					.btn{
+						background-color: #fff;
+						color: #22ac38;
+					}
+				}
+			}
+		}
+		.msg{
+			margin: 46/46.875rem 24/46.875rem 0/46.875rem;
+			position: relative;
+			border-bottom: 1px solid #fff;
+			.item{
+				font-size: 28/46.875rem;
+				color: #fff;
+				font-weight: 400;
+				.numerical{
+					float: right;
+				}
+			}
+			.subList{
+				width: 464/46.875rem;
+				margin-top: 13/46.875rem;
+				.subitem{
+					width: 232/46.875rem;
+					float: left;
+					font-size: 22/46.875rem;
+					color: #fff;
+					margin-bottom: 10/46.875rem;
+				}
+			}
+			.time{
+				position: absolute;
+				right: 0;
+				bottom: 10/46.875rem;;
+				color: #fff;
+				font-size: 20/46.875rem;
+
+			}
+		}
+	}
+	#chart{
+		height: 390/46.875rem;
+	}
+	.cardList{
+		margin-top: 24/46.875rem;
+		margin-bottom: 24/46.875rem;
+		.card{
+			height: 88/46.875rem;
+			line-height: 88/46.875rem;
+			background-color: #fff;
+			border-bottom: 2/46.875rem solid #f0f1f1;
+			font-size: 26/46.875rem;
+			padding-left: 30/46.875rem;
+			a{
+				color: #333333;
+			}
+			img{
+				width: 38/46.875rem;
+				height: 38/46.875rem;
+				float: right;
+				margin-right: 35/46.875rem;
+				margin-top: 26/46.875rem;
+			}
+			.unit{
+				float: right;
+				margin-right: 35/46.875rem;
+			}
+		}
+	}
+	.info{
+		background-color: #fff;
+		padding: 22/46.875rem 40/46.875rem;
+		box-sizing: border-box;
+		font-size: 26/46.875rem;
+		line-height: 48/46.875rem;
+		text-indent: 2em;
+	}
+}

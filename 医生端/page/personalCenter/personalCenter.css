@@ -1,0 +1,196 @@
+#personalCenter {
+  overflow: hidden;
+  width: 100%;
+}
+#personalCenter .card {
+  height: 3.968rem;
+  background-color: #fff;
+  padding: 0.85333333rem 0 0.512rem 0.64rem;
+  box-sizing: border-box;
+  background-image: url(../../src/image/per_bg.png);
+  background-size: cover;
+  background-position: center center;
+}
+#personalCenter .card .avatar {
+  float: left;
+  margin-right: 0.68266667rem;
+}
+#personalCenter .card .avatar img {
+  width: 2.56rem;
+  height: 2.56rem;
+  border-radius: 50%;
+}
+#personalCenter .card .msg {
+  float: left;
+}
+#personalCenter .card .msg .name {
+  font-weight: 400;
+  font-size: 0.68266667rem;
+  margin-top: 0.59733333rem;
+  color: #fff;
+}
+#personalCenter .card .msg .text {
+  font-size: 0.512rem;
+  margin-top: 0.42666667rem;
+  color: #fff;
+}
+#personalCenter .card .arrow {
+  float: right;
+  width: 0.59733333rem;
+  height: 0.59733333rem;
+  vertical-align: top;
+  margin-top: 0.96rem;
+  margin-right: 1.792rem;
+}
+#personalCenter .topbar {
+  height: 2.47466667rem;
+  margin-top: 0.08533333rem;
+  margin-bottom: 0.64rem;
+}
+#personalCenter .topbar .bar {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  background-color: #fff;
+}
+#personalCenter .topbar .bar.active {
+  background-color: #eeeeee;
+}
+#personalCenter .topbar .bar img {
+  width: 0.93866667rem;
+  height: 0.93866667rem;
+  margin-top: 0.29866667rem;
+}
+#personalCenter .topbar .bar .text {
+  font-size: 0.55466667rem;
+  margin-top: 0.34133333rem;
+}
+#personalCenter .view-wrapper {
+  position: relative;
+  left: 0;
+}
+#personalCenter .view-wrapper .view {
+  float: left;
+  overflow: hidden;
+}
+#personalCenter .view-wrapper .view .surveyList .item {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  font-size: 0.64rem;
+  padding-left: 0.64rem;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 0.46933333rem;
+  background-color: #fff;
+}
+#personalCenter .view-wrapper .view .surveyList .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#personalCenter .view-wrapper .view .surveyList .item .arrow {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  position: absolute;
+  right: 0.72533333rem;
+  top: 0.64rem;
+}
+#personalCenter .view-wrapper .view .list .item {
+  height: 2.56rem;
+  margin-top: 0.42666667rem;
+  background-color: #fff;
+  padding: 0.29866667rem 0.87466667rem 0.46933333rem;
+  position: relative;
+  box-sizing: border-box;
+}
+#personalCenter .view-wrapper .view .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#personalCenter .view-wrapper .view .list .item .title {
+  font-size: 0.64rem;
+  color: #333333;
+  margin-bottom: 0.55466667rem;
+}
+#personalCenter .view-wrapper .view .list .item .title .radios {
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 0.46933333rem;
+  width: 0.512rem;
+  height: 0.512rem;
+  background-color: #ff0000;
+}
+#personalCenter .view-wrapper .view .list .item .title .radios.overdue {
+  background-color: #dcdcdc;
+}
+#personalCenter .view-wrapper .view .list .item .text {
+  font-size: 0.55466667rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #999999;
+}
+#personalCenter .view-wrapper .view .list .item .time {
+  position: absolute;
+  right: 0.59733333rem;
+  top: 0.64rem;
+  font-size: 0.55466667rem;
+  color: #999999;
+}
+#personalCenter .view-wrapper .view .subTabs {
+  background-color: #fff;
+  height: 1.536rem;
+  line-height: 1.536rem;
+  border-bottom: 1px solid #eeeeee;
+}
+#personalCenter .view-wrapper .view .subTabs .subTab {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+}
+#personalCenter .view-wrapper .view .subTabs .subTab.active span {
+  color: #53ac33;
+  border-bottom: 1px solid  #53ac33;
+}
+#personalCenter .view-wrapper .view .subTabs .subTab span {
+  font-size: 0.55466667rem;
+  color: #333333;
+  padding: 0 0.29866667rem 0.2rem;
+}
+#personalCenter .view-wrapper .view .container {
+  position: relative;
+  left: 0;
+}
+#personalCenter .view-wrapper .view .container .ctar {
+  float: left;
+}
+#personalCenter .view-wrapper .view .container .ctar .ctar-list .ctar-item {
+  height: 2.73066667rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  padding: 0.42666667rem 0.64rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eeeeee;
+}
+#personalCenter .view-wrapper .view .container .ctar .ctar-list .ctar-item .avatar {
+  float: left;
+  margin-right: 0.85333333rem;
+}
+#personalCenter .view-wrapper .view .container .ctar .ctar-list .ctar-item .avatar img {
+  width: 1.87733333rem;
+  height: 1.87733333rem;
+  vertical-align: top;
+  border-radius: 50%;
+}
+#personalCenter .view-wrapper .view .container .ctar .ctar-list .ctar-item .name {
+  float: left;
+  font-size: 0.55466667rem;
+}
+#personalCenter .view-wrapper .view .container .ctar .ctar-list .ctar-item .time {
+  float: right;
+  font-size: 0.55466667rem;
+  margin-right: 0.768rem;
+}

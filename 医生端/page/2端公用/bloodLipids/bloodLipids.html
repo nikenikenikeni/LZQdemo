@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>血脂</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="bloodLipids.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="booldLipids">
+		<div class="chart-wrapper">
+			<div class="topbar clearfix">
+				<div class="bar"><p class="btn" data-type="D">日</p></div>
+				<div class="bar"><p class="btn" data-type="M">月</p></div>
+				<div class="bar active"><p class="btn" data-type="Y">年</p></div>
+			</div>
+			<div class="msg">
+				<h4 class="item">血脂 <span class="numerical">5.9/2.4/1.6/3.4</span></h4>
+				<ul class="subList clearfix">
+					<li class="subitem">总胆固醇 : <span class="triacylglyceride"></span></li>
+					<li class="subitem">甘油三酯 : <span class="totalcholesterol"></span></li>
+					<li class="subitem">高密度脂蛋白 : <span class="hdl"></span></li>
+					<li class="subitem">低密度脂蛋白 : <span class="ldl"></span></li>
+				</ul>
+				<div class="time">今日 10:13</div>
+			</div>
+			<div id="chart"></div>
+		</div>
+		<div class="cardList">
+			<div class="card"><a href="#">显示所有数据<img src="../../src/image/jt_right.png" height="38" width="38" alt=""></a></div>
+			<div class="card">单位 <span class="unit">mmol/L</span></div>
+		</div>
+		<div class="info">
+			<p class="text">血脂是血浆中的中性脂肪（甘油三酯和胆固醇）和类脂（磷脂、糖脂、固醇、类固醇）的总称，广泛存在于人体中。它们是生命细胞的基础代谢必需物质。一般说来，血脂中的主要成分是甘油三酯和胆固醇，其中甘油三酯参与人体内能量代谢，而胆固醇则主要用于合成细胞浆膜、类固醇激素和胆汁酸。</p>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="bloodLipids.js"></script>
+</body>
+</html>

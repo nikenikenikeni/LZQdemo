@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>调查问卷</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="questionnaire.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="questionnaire">
+		<div class="subTabs">
+			<div class="subTab active" data-idx="0"><span class="text">发放记录</span></div>
+			<div class="subTab" data-idx="1"><span class="text">返回问卷</span></div>
+			<div class="subTab" data-idx="2"><span class="text">问卷详情</span></div>
+		</div>
+		<div class="view-wrapper">
+			<div class="view">
+				<div class="list">
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="view">
+				<div class="list">
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<div class="avatar">
+								<img src="../../src/image/haski.jpg" height="300" width="400" alt="">
+							</div>
+							<p class="name">阿狸</p>
+							<p class="time">2017/3/2</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="view">
+				<div class="detail">
+					<p class="text">
+						我们旨在健康，通过本次调查问卷来更多地了解人的身体健康状况，通过数据分析来了解当代社会人们的健康水平。
+					</p>
+					<div class="questionList">
+						<div class="question">
+							<div class="title">1. 您是否明白自己具体的健康状态 ? </div>
+							<ul class="answerList clearfix">
+								<li class="answer">
+									<input type="radio" name="answer1">总是
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer1">经常
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer1">很少
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer1">没有
+								</li>
+							</ul>
+						</div>
+						<div class="question">
+							<div class="title">1. 您是否明白自己具体的健康状态 ? </div>
+							<ul class="answerList clearfix">
+								<li class="answer">
+									<input type="radio" name="answer2">总是
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer2">经常
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer2">很少
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer2">没有
+								</li>
+							</ul>
+						</div>
+						<div class="question">
+							<div class="title">1. 您是否明白自己具体的健康状态 ? </div>
+							<ul class="answerList clearfix">
+								<li class="answer">
+									<input type="radio" name="answer3">总是
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer3">经常
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer3">很少
+								</li>
+								<li class="answer">
+									<input type="radio" name="answer3">没有
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="questionnaire.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>导诊</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="SCL90.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="questionnaire">
+		<div class="title">90项症状清单（SCL-90</div>
+		<div class="text">说明：以下表格中列出了有些人可能会有的问题，请仔细地阅读每一条，然后根据最近一星期以内下述情况影响您的实际感觉，选择适合的答案，画一个“√”，请注意不要漏题。</div>
+		<div class="ql">
+			<div class="qt">1. 头痛</div>
+			<ul class="answer clearfix">
+				<li class="ai"><input type="radio" name="headache" value="0">没有</li>
+				<li class="ai"><input type="radio" name="headache" value="1">很轻</li>
+				<li class="ai"><input type="radio" name="headache" value="2">中等</li>
+				<li class="ai"><input type="radio" name="headache" value="3">偏重</li>
+				<li class="ai"><input type="radio" name="headache" value="4">严重</li>
+			</ul>
+		</div>
+		<div class="ql">
+			<div class="qt">2. 头痛</div>
+			<ul class="answer clearfix">
+				<li class="ai"><input type="radio" name="headache" value="0">没有</li>
+				<li class="ai"><input type="radio" name="headache" value="1">很轻</li>
+				<li class="ai"><input type="radio" name="headache" value="2">中等</li>
+				<li class="ai"><input type="radio" name="headache" value="3">偏重</li>
+				<li class="ai"><input type="radio" name="headache" value="4">严重</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

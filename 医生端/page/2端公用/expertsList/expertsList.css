@@ -1,0 +1,52 @@
+#expertsList {
+  padding-top: 0.256rem;
+}
+#expertsList .list {
+  width: 100%;
+}
+#expertsList .list .item {
+  width: 100%;
+  height: 3.15733333rem;
+  padding: 0.17066667rem 0.68266667rem 0.17066667rem 0.55466667rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 0.46933333rem;
+  position: relative;
+}
+#expertsList .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#expertsList .list .item .avatar {
+  float: left;
+}
+#expertsList .list .item .avatar img {
+  width: 2.816rem;
+  height: 2.816rem;
+}
+#expertsList .list .item .msg {
+  width: 9.13066667rem;
+  float: left;
+  margin-left: 0.64rem;
+}
+#expertsList .list .item .msg h4 {
+  font-size: 0.68266667rem;
+  color: #5b5b5b;
+  margin-top: 0.29866667rem;
+}
+#expertsList .list .item .msg .text {
+  margin-top: 0.29866667rem;
+  font-size: 0.46933333rem;
+  line-height: 0.64rem;
+  color: #666666;
+}
+#expertsList .list .item .arrow {
+  position: absolute;
+  right: 0.72533333rem;
+  top: 1.13066667rem;
+}
+#expertsList .list .item .arrow img {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+}

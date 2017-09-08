@@ -1,0 +1,21 @@
+#caseDetail {
+  padding-top: 0.384rem;
+}
+#caseDetail .banner {
+  padding: 0.55466667rem 0.59733333rem;
+  box-sizing: border-box;
+  background: #fff;
+}
+#caseDetail .banner img {
+  width: 100%;
+}
+#caseDetail .content {
+  padding: 0.59733333rem;
+  background: #fff;
+}
+#caseDetail .content .text {
+  text-indent: 2em;
+  font-size: 0.55466667rem;
+  line-height: 1.024rem;
+  color: #333333;
+}

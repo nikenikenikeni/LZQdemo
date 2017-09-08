@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>电子记录</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="medicalRecords.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="medicalRecords">
+		<div class="topbar clearfix">
+			<div class="bar active" data-idx = "0">门诊</div>
+			<div class="bar" data-idx = "1">住院</div>
+			<div class="bar" data-idx = "2">体检</div>
+			<div class="bar" data-idx = "3">用药</div>
+			<div class="bar" data-idx = "4">干细胞治疗</div>
+		</div>
+		<div class="content-wrapper">
+			<div class="canvas-wrapper">
+				<canvas id="c1" width="400" height="180"></canvas>
+			</div>
+			<div class="img-wrapper">
+				<img src="../../src/image/meal_time.png" height="32" width="35" alt="">
+			</div>
+		</div>
+		<div class="calendar clearfix" id="calendar">
+			<div class="container">
+				<div class="cardList">
+					<div class="title">2017年3月5日</div>
+					<div class="card">
+						<p class="item">医院 : <span class="info">广东省工伤康复医院</span></p>
+						<p class="item">科室 : <span class="info">内科</span></p>
+						<p class="item">门诊医生 : <span class="info">李丽</span></p>
+					</div>
+					<div class="card">
+						<p class="item">时间 : <span class="info">2017-03-07</span></p>
+						<p class="item">初步诊断 : <span class="info">心理不健康</span></p>
+						<p class="item">最后诊断 : <span class="info">精神疾病</span></p>
+					</div>
+					<div class="card">
+						<p class="item">内容 :</p>
+						<p class="content">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cardList">
+					<div class="title">2017年3月5日</div>
+					<div class="card">
+						<p class="item">医院 : <span class="info">广东省工伤康复医院</span></p>
+						<p class="item">科室 : <span class="info">内科</span></p>
+						<p class="item">住院医生 : <span class="info">李丽</span></p>
+					</div>
+					<div class="card">
+						<p class="item">入院时间 : <span class="info">2017-03-07</span></p>
+						<p class="item">出院时间 : <span class="info">2017-03-07</span></p>
+						<p class="item">诊断 : <span class="info">精神疾病</span></p>
+						<p class="item">结果 : <span class="info">精神疾病</span></p>
+					</div>
+					<div class="card">
+						<p class="item">内容 :</p>
+						<p class="content">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cardList">
+					<div class="title">2017年3月5日</div>
+					<div class="card">
+						<p class="item">医院 : <span class="info">广东省工伤康复医院</span></p>
+						<p class="item">体检时间 : <span class="info">2017-02-21</span></p>
+					</div>
+					<div class="card">
+						<p class="item">总检报告 :</p>
+						<p class="report">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+					<div class="card">
+						<p class="item">内容 :</p>
+						<p class="content">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cardList">
+					<div class="title">2017年3月5日</div>
+					<div class="card">
+						<p class="item">医院 : <span class="info">广东省工伤康复医院</span></p>
+						<p class="item">科室 : <span class="info">内科</span></p>
+						<p class="item">医生 : <span class="info">李丽</span></p>
+					</div>
+					<div class="card">
+						<p class="item">药品名称 : <span class="info">布洛芬</span></p>
+						<p class="item">药品规格 : <span class="info">每包含布洛芬0.2克</span></p>
+						<p class="item">药品厂家 : <span class="info">xxxx</span></p>
+						<p class="item">用药剂量 : <span class="info">一日0.6g</span></p>
+						<p class="item">用药单位 : <span class="info">g</span></p>
+						<p class="item">用药频率 : <span class="info">一日三次</span></p>
+						<p class="item">用药时间 : <span class="info">饭后</span></p>
+						<p class="item">用药方法 : <span class="info">口服</span></p>
+						<p class="item">用药开始日期 : <span class="info">2017-03-27</span></p>
+						<p class="item">用药结束日期 : <span class="info">2017-03-27</span></p>
+					</div>
+					<div class="card">
+						<p class="item">状态 : <span class="info">良好</span></p>
+						<p class="item">备注 : <span class="info">无</span></p>
+						<p class="item">内容 :</p>
+						<p class="content">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="cardList">
+					<div class="title">2017年3月5日</div>
+					<div class="card">
+						<p class="item">名称 : <span class="info">xxxxx</span></p>
+					</div>
+					<div class="card">
+						<p class="item">内容 :</p>
+						<p class="content">患有严重精神疾病，患有严重精神疾病，患有严重精神疾病患有严重精神疾病，患有严重精神疾病</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mark">
+			<div class="dateList">
+			</div>
+			<div class="cancel">
+				取消
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="medicalRecords.js"></script>
+</body>
+</html>

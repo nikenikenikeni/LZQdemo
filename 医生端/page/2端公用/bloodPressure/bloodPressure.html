@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>血压</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="bloodPressure.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="bloodPressure">
+		<div class="chart-wrapper">
+			<div class="topbar clearfix">
+				<div class="bar active"><p class="btn" data-type="D">日</p></div>
+				<div class="bar"><p class="btn" data-type="M">月</p></div>
+				<div class="bar"><p class="btn" data-type="Y">年</p></div>
+			</div>
+			<div class="msg">
+				<h4 class="item">血糖 <span class="numerical">5.9</span></h4>
+				<ul class="subList clearfix">
+					<li class="subitem"></li>
+					<li class="subitem"></li>
+					<li class="subitem">ˇ130/^60</li>
+					<li class="subitem"></li>
+				</ul>
+				<div class="time">今日 10:13</div>
+			</div>
+			<div id="chart"></div>
+		</div>
+		<div class="cardList">
+			<div class="card"><a href="#">显示所有数据<img src="../../src/image/jt_right.png" height="38" width="38" alt=""></a></div>
+			<div class="card">单位 <span class="unit">毫米汞柱</span></div>
+		</div>
+		<div class="info">
+			<p class="text">血压指血管内的血液对于单位面积血管壁的侧压力，即压强。由于血管分动脉、毛细血管和静脉，所以，也就有动脉血压、毛细血管压和静脉血压。通常所说的血压是指动脉血压。当血管扩张时，血压下降；血管收缩时，血压升高。</p>
+			<p class="text">一般正常人每日血压波动在2.7—4.0千帕(20—30毫米汞柱)范围内</p>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="bloodPressure.js"></script>
+</body>
+</html>

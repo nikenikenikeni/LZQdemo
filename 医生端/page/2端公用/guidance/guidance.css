@@ -1,0 +1,124 @@
+#guidance {
+  position: relative;
+  width: 100%;
+  display: table;
+  min-height: 28.45866667rem;
+  background-color: #e6ecde;
+}
+#guidance .progress-wrapper {
+  margin: 1.536rem 0.59733333rem 0;
+  text-align: center;
+}
+#guidance .progress-wrapper .progress {
+  height: 0.68266667rem;
+  width: 100%;
+  background-color: #b3d465;
+  border-radius: 0.34133333rem;
+}
+#guidance .progress-wrapper .progress .schedule {
+  height: 0.68266667rem;
+  width: 1.024rem;
+  background-color: #fff;
+  border-radius: 0.34133333rem;
+}
+#guidance .progress-wrapper .text {
+  margin-top: 0.64rem;
+  font-size: 0.85333333rem;
+  color: #666666;
+}
+#guidance .container {
+  margin: 1.536rem 1.23733333rem 0;
+}
+#guidance .container .question {
+  height: 1.70666667rem;
+  line-height: 1.70666667rem;
+}
+#guidance .container .question span {
+  display: inline-block;
+  vertical-align: top;
+  color: #666666;
+}
+#guidance .container .question img {
+  width: 1.70666667rem;
+  height: 1.70666667rem;
+  margin-right: 0.768rem;
+}
+#guidance .container .title {
+  font-size: 0.68266667rem;
+  line-height: 1.024rem;
+  margin: 0.85333333rem 0 1.49333333rem;
+  color: #666666;
+}
+#guidance .container .answerList .item {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  margin-bottom: 0.68266667rem;
+  padding-left: 0.85333333rem;
+  box-sizing: border-box;
+  font-size: 0.68266667rem;
+  color: #666666;
+}
+#guidance #result-wrapper {
+  display: none;
+  margin: 0.55466667rem;
+}
+#guidance #result-wrapper #chart {
+  height: 8.32rem;
+}
+#guidance #result-wrapper .result {
+  margin-top: 0.42666667rem;
+}
+#guidance #result-wrapper .result .progress-title {
+  background-color: #fff;
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  padding-left: 0.68266667rem;
+  font-size: 0.64rem;
+  color: #53ac33;
+}
+#guidance #result-wrapper .result .progress-title .down {
+  width: 0.512rem;
+  height: 0.512rem;
+  margin-left: 0.42666667rem;
+}
+#guidance #result-wrapper .result .card-list {
+  display: none;
+}
+#guidance #result-wrapper .result .card-list .card {
+  padding: 0.21333333rem 0.17066667rem;
+  box-sizing: border-box;
+  margin-top: 0.34133333rem;
+  background-color: #fff;
+}
+#guidance #result-wrapper .result .card-list .card .title {
+  padding: 0.10666667rem 0.17066667rem;
+  line-height: 0.896rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+}
+#guidance #result-wrapper .result .card-list .card .title .block {
+  display: inline-block;
+  height: 0.896rem;
+  width: 0.256rem;
+  background-color: #22ac38;
+}
+#guidance #result-wrapper .result .card-list .card .title .text {
+  font-size: 0.64rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.256rem;
+  color: #53ac33;
+}
+#guidance #result-wrapper .result .card-list .card .msg {
+  padding: 0.93866667rem 0.59733333rem 1.792rem;
+}
+#guidance #result-wrapper .result .card-list .card .msg .text {
+  font-size: 0.55466667rem;
+  color: #333333;
+  line-height: 0.896rem;
+  margin-bottom: 0.81066667rem;
+}
+#guidance #result-wrapper .result .card-list .card .msg .text:last-child {
+  margin-bottom: 0;
+}

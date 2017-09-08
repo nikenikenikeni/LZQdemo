@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>健康资讯</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="healthInformation.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="healthInformation">
+		<div class="title">健康资讯</div>
+		<ul class="infoList">
+		</ul>
+		<div class="title select"><span>疾病分类</span> <img src="../../src/image/jt_down.png" class="img_hook" height="24" width="24" alt="down"></div>
+		<div class="option-wrapper">
+			<ul class="option-list clearfix">
+				<li class="option active">全部</li>
+				<li class="option">外科</li>
+				<li class="option">妇科</li>
+				<li class="option">全部</li>
+				<li class="option">外科</li>
+				<li class="option">妇科</li>
+				<li class="option">全部</li>
+				<li class="option">外科</li>
+			</ul>
+		</div>
+	</div>
+
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/js/loading.js"></script>
+	<script src="healthInformation.js"></script>
+</body>
+</html>

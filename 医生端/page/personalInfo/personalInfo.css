@@ -1,0 +1,36 @@
+#personalInfo {
+  min-height: 28.45866667rem;
+}
+#personalInfo .infoList .info {
+  border-bottom: 1px solid #f0f1f1;
+  background-color: #fff;
+}
+#personalInfo .infoList .info .inf {
+  height: 1.74933333rem;
+  line-height: 1.74933333rem;
+  padding: 0 0.64rem;
+  box-sizing: border-box;
+  font-size: 0.55466667rem;
+  overflow: hidden;
+}
+#personalInfo .infoList .info .inf .msg {
+  float: right;
+  color: #666666;
+}
+#personalInfo .infoList .info .inf .head {
+  width: 1.23733333rem;
+  height: 1.23733333rem;
+  margin-top: 0.34133333rem;
+}
+#personalInfo .infoList .info .heng {
+  height: 2.51733333rem;
+  background: #f0f1f1;
+}
+#personalInfo .infoList .info .exit {
+  height: 1.74933333rem;
+  line-height: 1.74933333rem;
+  text-align: center;
+  font-size: 0.55466667rem;
+  background-color: #e5e5e5;
+  color: #53ac33;
+}

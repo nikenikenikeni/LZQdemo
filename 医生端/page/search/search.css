@@ -1,0 +1,111 @@
+#search .header {
+  padding: 0.36266667rem 0.59733333rem;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #d8d9d9;
+}
+#search .header .search-wrapper {
+  width: 12.544rem;
+  height: 1.19466667rem;
+  background-color: #fff;
+  border-radius: 0.128rem;
+}
+#search .header .search-wrapper img {
+  width: 0.72533333rem;
+  height: 0.72533333rem;
+  vertical-align: top;
+  margin-left: 0.256rem;
+  margin-top: 0.21333333rem;
+  margin-right: 0.384rem;
+}
+#search .header .search-wrapper .search {
+  border: none;
+  height: 0.85333333rem;
+  width: 10.79466667rem;
+  border-left: 1px solid #dcdcdc;
+  padding-left: 0.42666667rem;
+  box-sizing: border-box;
+  color: #666666;
+}
+#search .header .search-wrapper .search:focus {
+  outline-color: transparent;
+}
+#search .header .cancel {
+  position: absolute;
+  right: 0.896rem;
+  top: 0.64rem;
+  font-size: 0.64rem;
+  color: #53ac33;
+}
+#search .container .searchView {
+  min-height: 23.89333333rem;
+  position: relative;
+}
+#search .container .searchView .title {
+  margin: 0.46933333rem 0.81066667rem 0;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 0.55466667rem;
+  color: #999999;
+}
+#search .container .searchView .title .clean {
+  float: right;
+  color: #53ac33;
+}
+#search .container .searchView .historyList .history {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f1f1;
+  padding-left: 0.85333333rem;
+  box-sizing: border-box;
+  font-size: 0.55466667rem;
+  color: #999999;
+  position: relative;
+}
+#search .container .searchView .historyList .history .del {
+  position: absolute;
+  right: 0.85333333rem;
+  top: 0;
+}
+#search .container .searchView .historyList .history .del img {
+  width: 0.59733333rem;
+  height: 0.59733333rem;
+}
+#search .container .searchView .noSearch {
+  position: absolute;
+  top: 10.28266667rem;
+  left: 5.54666667rem;
+}
+#search .container .searchView .noSearch img {
+  width: 5.12rem;
+  height: 4.48rem;
+}
+#search .container .searchView .noSearch .text {
+  text-align: center;
+  font-size: 0.64rem;
+  color: #999999;
+  margin-top: 1.152rem;
+}
+#search .container .contentView {
+  display: none;
+}
+#search .container .contentView .searchLsit {
+  margin-top: 1.792rem;
+}
+#search .container .contentView .searchLsit .searchItem {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  font-size: 0.55466667rem;
+  padding-left: 0.896rem;
+  box-sizing: border-box;
+}
+#search .container .contentView .searchLsit .searchItem .arrow {
+  float: right;
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  margin-right: 0.98133333rem;
+  margin-top: 0.512rem;
+}

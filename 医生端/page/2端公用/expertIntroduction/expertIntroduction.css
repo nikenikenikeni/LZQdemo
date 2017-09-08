@@ -1,0 +1,62 @@
+#expertIntroduction .card {
+  padding: 0.81066667rem 0.64rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+#expertIntroduction .card .avatar {
+  float: left;
+}
+#expertIntroduction .card .avatar img {
+  width: 2.816rem;
+  height: 2.816rem;
+}
+#expertIntroduction .card .msg {
+  float: left;
+  margin-left: 0.55466667rem;
+}
+#expertIntroduction .card .msg h4 {
+  color: #5b5b5b;
+  font-size: 0.68266667rem;
+  margin-top: 0.68266667rem;
+}
+#expertIntroduction .card .msg .text {
+  font-size: 0.46933333rem;
+  color: #666666;
+  margin-top: 0.42666667rem;
+}
+#expertIntroduction .introduct-wrapper {
+  background-color: #fff;
+}
+#expertIntroduction .introduct-wrapper .introduct .title {
+  border-bottom: 1px solid #dcdcdc;
+  height: 1.536rem;
+  line-height: 0.896rem;
+  padding: 0.32rem 0;
+  box-sizing: border-box;
+}
+#expertIntroduction .introduct-wrapper .introduct .title .block {
+  width: 0.256rem;
+  height: 0.896rem;
+  background-color: #22ac38;
+  margin-left: 0.81066667rem;
+  margin-right: 0.384rem;
+}
+#expertIntroduction .introduct-wrapper .introduct .title span {
+  font-size: 0.55466667rem;
+  color: #53ac33;
+  display: inline-block;
+  vertical-align: top;
+}
+#expertIntroduction .introduct-wrapper .introduct .text-wrapper {
+  padding: 0.384rem 0.768rem 1.408rem 1.408rem;
+  box-sizing: border-box;
+}
+#expertIntroduction .introduct-wrapper .introduct .text-wrapper .text {
+  font-size: 0.55466667rem;
+  line-height: 0.896rem;
+  margin-bottom: 0.896rem;
+  text-indent: 2em;
+}
+#expertIntroduction .introduct-wrapper .introduct .text-wrapper .text:last-child {
+  margin-bottom: 0;
+}

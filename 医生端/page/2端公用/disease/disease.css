@@ -1,0 +1,47 @@
+#disease .list {
+  margin-top: 0.21333333rem;
+}
+#disease .list .item {
+  padding: 0 0.64rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f1f1;
+  position: relative;
+}
+#disease .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#disease .list .item h5 {
+  font-size: 0.68266667rem;
+  padding-top: 0.42666667rem;
+  font-weight: 400;
+}
+#disease .list .item h5 .part {
+  font-size: 0.55466667rem;
+  margin-left: 1.36533333rem;
+}
+#disease .list .item h5 .colorText {
+  font-size: 0.55466667rem;
+  color: #53ac33;
+}
+#disease .list .item .text {
+  font-size: 0.55466667rem;
+  color: #8c8c8c;
+  width: 12.8rem;
+  margin-top: 0.46933333rem;
+  margin-bottom: 0.42666667rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#disease .list .item .arrow {
+  float: right;
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  top: 0.96rem;
+  right: 0.72533333rem;
+  position: absolute;
+}

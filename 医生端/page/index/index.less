@@ -1,0 +1,331 @@
+.border-1px(@color: #ececec) {
+	position: relative;
+	&:after{
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		border-top: 1px solid @color;
+		content: ' ';
+	}
+}
+#index{
+	.banner{
+		height: 454/46.875rem;
+		width: 100%;
+		img{
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.search-wrapper{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 9/46.875rem 0;
+		background-color: rgba(255,255,255,0.2);
+	}
+	.search{
+		text-align: center;
+		position: relative;
+		.searchInp{
+			border: none;
+			width: 692/46.875rem;
+			height: 56/46.875rem;
+			border-radius: 8/46.875rem;
+			text-align: center;
+			background-color: rgba(255,255,255,0.4);
+			&:focus{
+				outline-color: transparent;
+			}
+		}
+		.placeholder{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 694/46.875rem;
+			height: 100%;
+			font-size: 26/46.875rem;
+			line-height: 56/46.875rem;
+			color: #999999;
+			margin: 0 29/46.875rem;
+			box-sizing: border-box;
+			border-radius: 8/46.875rem;
+			background-color: rgba(255,255,255,0.4);
+			img{
+				width: 28/46.875rem;
+				height: 28/46.875rem;
+				margin-right: 8/46.875rem;
+				vertical-align: top;
+				margin-top: 13/46.875rem;
+			}
+		}
+	}
+	.title{
+		height: 79/46.875rem;
+		line-height: 79/46.875rem;
+		border-bottom: 1px solid #eeeeee;
+		background-color: #fff;
+		font-size: 30/46.875rem;
+		padding-left: 48/46.875rem;
+		box-sizing: border-box;
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+			color: #333333;
+		}
+		img{
+			float: right;
+			width: 38/46.875rem;
+			height: 38/46.875rem;
+			margin-top: 22/46.875rem;
+			margin-right: 44/46.875rem;
+		}
+	}
+	.test{
+		margin-top: 24/46.875rem;
+		.left-wrapper{
+			float: left;
+			width: 372/46.875rem; 
+			height: 286/46.875rem; 
+			background-color: #fff;
+			text-align: center;
+			font-size: 30/46.875rem;
+			border-right: 1px solid #eeeeee;
+			.border-1px(#eeeeee);
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: #333333;
+			}
+			h4{
+				font-weight: 400;
+				padding-top: 34/46.875rem;
+				font-size: 30/46.875rem;
+			}
+			.text{
+				font-size: 20/46.875rem;
+				color: #8c8c8c;
+				margin: 16/46.875rem 0 32/46.875rem;
+			}
+			.img-wrapper{
+				img{
+					width: 140/46.875rem;
+					height: 121/46.875rem;
+				}
+			}
+		}
+		.right-wrapper{
+			width: 374/46.875rem; 
+			float: left;
+		}
+		.item{
+			background-color: #fff;
+			float: left;
+			width: 374/46.875rem;
+			height: 143/46.875rem;
+			border-right: 1px solid #eeeeee;
+			border-bottom: 1px solid #eeeeee;
+			padding-top: 33/46.875rem;
+			box-sizing: border-box;
+			&:nth-of-type(2n){
+				border-right: none;
+			}
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				color: #333333;
+			}
+			.img-wrapper{
+				float: left;
+				margin-left: 48/46.875rem;
+				margin-right: 18/46.875rem;
+				img{
+					width: 78/46.875rem;
+					height: 78/46.875rem;
+				}
+			}
+			.content{
+				float: left;
+				width: 4.55rem;
+				h4{
+					font-size: 30/46.875rem;
+					margin-top: 4/46.875rem;
+					font-weight: 400;
+				}
+				.text{
+					font-size: 20/46.875rem;
+					margin-top: 13/46.875rem;
+					color: #666666;
+				}
+			}
+		}
+	}
+	.expert{
+		background-color: #fff;
+		margin-top: 24/46.875rem;
+		.list{
+			padding: 32/46.875rem 23/46.875rem;
+			box-sizing: border-box;
+			.item{
+				float: left;
+				width: 216/46.875rem;
+				margin-right: 24/46.875rem;
+				text-align: center;
+				&:last-child{
+					margin-right: 0;
+				}
+				a{
+					display: block;
+					width: 100%;
+					height: 100%;
+					color: #333333;
+				}
+				.avatar{
+					img{
+						width: 176/46.875rem;
+						height: 176/46.875rem;
+					}
+				}
+				.name{
+					font-size: 28/46.875rem;
+					margin-top: 20/46.875rem;
+				}
+				.text{
+					font-size: 22/46.875rem;
+					color: #8c8c8c;
+					margin-top: 18/46.875rem;
+				}
+			}
+		}
+	}
+	.guide{
+		height: 350/46.875rem;
+		.guide-title{
+			text-align: center;
+			margin-top: 38/46.875rem;
+			font-size: 30/46.875rem;
+			line-height: 30/46.875rem;
+			.heng{
+				width: 64/46.875rem;
+				height: 2/46.875rem;
+				background-color: #333333;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 9/46.875rem;
+			}
+		}
+		.slideBox{
+			margin-top: 46/46.875rem;
+			position: relative;
+			width: 100%;
+			height: 200/46.875rem;
+			overflow: hidden;
+			.slide{
+				position: absolute;
+				left: 0;
+				top: 0;
+				li{
+					float: left;
+					a{
+						display: block;
+						widows: 100%;
+						height: 100%;
+					}
+					img{
+						width: 280/46.875rem;
+						height: 200/46.875rem;
+						margin-left: 28/46.875rem;
+					}
+				}
+			}
+		}
+	}
+	.disease{
+		background-color: #fff;
+		margin-bottom: 22/46.875rem;
+		.guide-title{
+			text-align: center;
+			margin-top: 38/46.875rem;
+			font-size: 30/46.875rem;
+			line-height: 30/46.875rem;
+			.heng{
+				width: 64/46.875rem;
+				height: 2/46.875rem;
+				background-color: #333333;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 9/46.875rem;
+			}
+		}
+		.option-wrapper{
+			padding: 48/46.875rem 54/46.875rem 14/46.875rem 46/46.875rem;
+			box-sizing: border-box;
+		}
+		.option-list{
+			.option{
+				padding: 4/46.875rem 24/46.875rem;
+				box-sizing: border-box;
+				line-height: 62/46.875rem;
+				border:1px solid #bfbfbf;
+				margin-right: 1.13rem;
+				margin-bottom: 40/46.875rem;
+				border-radius: 8/46.875rem;
+				text-align: center;
+				font-size: 30/46.875rem;
+				float: left;
+				&.active{
+					color: #22ac38;
+					border-color: #22ac38;
+				}
+			}
+		}
+	}
+	.information{
+		background-color: #fff;
+		padding-bottom: 40/46.875rem;
+		.list{
+			.item{
+				padding: 16/46.875rem 28/46.875rem;
+				box-sizing: border-box;
+				border-bottom: 1px solid #eeeeee;
+				position: relative;
+				a{
+					display: block;
+					width: 100%;
+					height: 100%;
+					color: #333333;
+				}
+				.thumbnail{
+					float: left;
+					margin-right: 22/46.875rem;
+					img{
+						width: 168/46.875rem;
+						height: 124/46.875rem;
+					}
+				}
+				.content{
+					float: left;
+					width: 504/46.875rem;
+					.text{
+						margin-top: 9/46.875rem;
+						font-size: 30/46.875rem;
+						line-height: 48/46.875rem;
+					}
+					.time{
+						position: absolute;
+						right: 30/46.875rem;
+						bottom: 18/46.875rem;
+						font-size: 24/46.875rem;
+						color: #666666;
+					}
+				}
+			}
+		}
+	}
+}

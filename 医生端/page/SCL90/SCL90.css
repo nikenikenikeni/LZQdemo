@@ -1,0 +1,38 @@
+#questionnaire {
+  background-color: #fff;
+  padding: 0.85333333rem 0.85333333rem 0;
+  box-sizing: border-box;
+}
+#questionnaire .title {
+  text-align: center;
+  font-size: 0.68266667rem;
+  font-weight: 700;
+  margin-bottom: 0.42666667rem;
+}
+#questionnaire .text {
+  line-height: 0.85333333rem;
+  font-size: 0.59733333rem;
+  text-indent: 2em;
+  margin-bottom: 0.64rem;
+}
+#questionnaire .ql {
+  padding-bottom: 0.85333333rem;
+}
+#questionnaire .ql .qt {
+  font-size: 0.59733333rem;
+  margin-bottom: 0.34133333rem;
+}
+#questionnaire .ql .answer {
+  width: 100%;
+}
+#questionnaire .ql .answer .ai {
+  float: left;
+  width: 20%;
+  font-size: 0.59733333rem;
+  padding-bottom: 0.256rem;
+}
+#questionnaire .ql .answer .ai input[type=radio] {
+  margin: 0;
+  vertical-align: top;
+  margin-right: 0.17066667rem;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>健康自测</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="healthTesting.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="healthTesting" class="clearfix">
+		<div class="nav">
+			<ul class="nav-list">
+				<li class="nav-item active">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_head.png" height="48" width="48" alt="头部"><span class="text">头部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_jb.png" height="48" width="48" alt="颈部"><span class="text">颈部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_jianb.png" height="48" width="48" alt="肩部"><span class="text">肩部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_xiongb.png" height="48" width="48" alt="胸部"><span class="text">胸部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_fub.png" height="48" width="48" alt="腹部"><span class="text">腹部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_shoub.png" height="48" width="48" alt="手部"><span class="text">手部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_bib.png" height="48" width="48" alt="臂部"><span class="text">臂部</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_gupen.png" height="48" width="48" alt="骨盆"><span class="text">骨盆</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="#">
+						<img class="image" src="../../src/image/sid_beib.png" height="48" width="48" alt="背部"><span class="text">背部</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="banner">
+				<img src="../../src/image/test_banner.png" height="232" width="504" alt="banner">
+			</div>
+			<div class="pain-wrapper">
+				<ul class="pain-list">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/js/loading.js"></script>
+	<script src="healthTesting.js"></script>
+</body>
+</html>

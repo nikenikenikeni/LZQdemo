@@ -1,0 +1,76 @@
+#healthInformation {
+  background-color: #fff;
+  min-height: 28.45866667rem;
+}
+#healthInformation .title {
+  font-size: 0.64rem;
+  color: #53ac33;
+  height: 1.57866667rem;
+  line-height: 1.57866667rem;
+  border-bottom: 1px solid #eeeeee;
+  padding-left: 0.61866667rem;
+  box-sizing: border-box;
+}
+#healthInformation .title img {
+  width: 0.512rem;
+  height: 0.512rem;
+}
+#healthInformation .infoList .item {
+  padding: 0.34133333rem 0.64rem 0.34133333rem 0.59733333rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+#healthInformation .infoList .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#healthInformation .infoList .item .thumbnail {
+  float: left;
+}
+#healthInformation .infoList .item .thumbnail img {
+  width: 3.584rem;
+  height: 2.64533333rem;
+}
+#healthInformation .infoList .item .msg {
+  float: left;
+  margin-left: 0.46933333rem;
+  width: 10.496rem;
+}
+#healthInformation .infoList .item .msg .text {
+  font-size: 0.64rem;
+  line-height: 1.024rem;
+}
+#healthInformation .infoList .item .time {
+  position: absolute;
+  right: 0.64rem;
+  bottom: 0.34133333rem;
+  font-size: 0.55466667rem;
+  color: #666666;
+}
+#healthInformation .option-wrapper {
+  padding: 1.024rem 1.152rem 0.29866667rem 0.98133333rem;
+  box-sizing: border-box;
+  display: none;
+}
+#healthInformation .option-wrapper .option-list .option {
+  width: 2.51733333rem;
+  height: 1.32266667rem;
+  line-height: 1.32266667rem;
+  border: 1px solid #bfbfbf;
+  margin-right: 1.13rem;
+  margin-bottom: 0.85333333rem;
+  border-radius: 0.17066667rem;
+  text-align: center;
+  font-size: 0.64rem;
+  float: left;
+}
+#healthInformation .option-wrapper .option-list .option.active {
+  color: #22ac38;
+  border-color: #22ac38;
+}
+#healthInformation .option-wrapper .option-list .option:nth-of-type(4n) {
+  margin-right: 0;
+}

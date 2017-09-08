@@ -1,0 +1,39 @@
+#healthGuidance {
+  min-height: 28.45866667rem;
+  background-color: #e6ecde;
+  padding: 0.55466667rem 0.59733333rem 0;
+  box-sizing: border-box;
+}
+#healthGuidance .img-wrapper img {
+  width: 100%;
+}
+#healthGuidance .content {
+  position: relative;
+}
+#healthGuidance .content .text {
+  line-height: 1.024rem;
+  font-size: 0.768rem;
+  color: #666666;
+  text-indent: 2em;
+  margin: 2.21866667rem 0 3.41333333rem;
+}
+#healthGuidance .content .decoration {
+  position: absolute;
+  top: -0.6rem;
+  left: -0.3rem;
+  width: 1.70666667rem;
+  height: 1.70666667rem;
+}
+#healthGuidance .content .btn-wrapper a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#healthGuidance .content .btn-wrapper .btn {
+  width: 100%;
+  height: 2.048rem;
+  color: #fff;
+  background-color: #53ac33;
+  border-radius: 0.17066667rem;
+  border: none;
+}

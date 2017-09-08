@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>导诊</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="physicalIdentification.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="physicalIdentification">
+		<div id="answer-wrapper">
+			<div class="progress-wrapper">
+				<div class="progress">
+					<div class="schedule"></div>
+				</div>
+
+				<p class="text"><span class="current">1</span> / <span class="totalProblem">60</span></p>
+			</div>
+
+			<div class="container">
+				<div class="question">
+					<img src="../../src/image/referral_cont.png" height="128" width="128" alt=""><span class="question">第<span class="num">1</span>题</span>
+				</div>
+				<p class="title" id="questionTitle">1.您精力充沛吗？</p>
+				<ul class="answerList">
+					<li class="item" data-score="1">A. 没有</li>
+					<li class="item" data-score="2">B. 很少</li>
+					<li class="item" data-score="3">C. 有时</li>
+					<li class="item" data-score="4">D. 经常</li>
+					<li class="item" data-score="5">E. 总是</li>
+				</ul>
+			</div>
+		</div>
+		<div class="result-wrapper">
+			<div class="border-wrapper">
+				<div class="result">
+					<h4>诊断结果</h4>
+					<p class="physicalText text">你的体质是: 平和质</p>
+					<p class="tendencyText text">你的体质是: 平和质</p>
+				</div>
+				<div class="img-wrapper">
+					<img src="../../src/image/referral_cont.png" height="128" width="128">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="physicalIdentification.js"></script>
+</body>
+</html>

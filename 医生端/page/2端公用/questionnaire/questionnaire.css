@@ -1,0 +1,30 @@
+#questionnaire {
+  padding: 0.55466667rem 0.59733333rem;
+  box-sizing: border-box;
+}
+#questionnaire .list .item {
+  padding: 0.46933333rem;
+  background-color: #fff;
+  border-radius: 0.17066667rem;
+  margin-bottom: 0.59733333rem;
+}
+#questionnaire .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+#questionnaire .list .item .time {
+  padding-left: 0.64rem;
+  font-size: 0.55466667rem;
+  margin-bottom: 0.42666667rem;
+}
+#questionnaire .list .item .banner {
+  width: 100%;
+}
+#questionnaire .list .item .title {
+  padding-left: 0.64rem;
+  font-size: 0.55466667rem;
+  margin-bottom: 0.46933333rem;
+  margin-top: 0.85333333rem;
+}

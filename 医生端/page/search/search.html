@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>搜索</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="search.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="search">
+		<div class="header">
+			<div class="search-wrapper">
+				<img src="../../src/image/re_seek.png" height="28" width="28" alt=""><input type="text" placeholder="搜索" class="search">
+			</div>
+			<div class="cancel">取消</div>
+		</div>
+		<div class="container">
+			<div class="searchView">
+				<div class="title">搜索历史 <span class="clean">清除</span></div>
+				<div class="historyList">
+					<div class="history">xxxxx <div class="del"><img src="../../src/image/seek_close.png" height="27" width="27" alt=""></div></div>
+					<div class="history">xxxxx <div class="del"><img src="../../src/image/seek_close.png" height="27" width="27" alt=""></div></div>
+					<div class="history">xxxxx <div class="del"><img src="../../src/image/seek_close.png" height="27" width="27" alt=""></div></div>
+				</div>
+				<div class="noSearch">
+					<img src="../../src/image/seek.png" height="207" width="240" alt="">
+					<p class="text">暂无搜索记录</p>
+				</div>
+			</div>
+			<div class="contentView">
+				<div class="searchLsit">
+					<div class="searchItem">
+						胡斌医生 <img src="../../src/image/jt_right.png" height="38" width="38" class="arrow" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="search.js"></script>
+</body>
+</html>

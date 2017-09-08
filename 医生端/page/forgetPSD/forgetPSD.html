@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>忘记密码</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="forgetPSD.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="register">
+		<div class="header clearfix">
+			<div class="left-wrapper">
+				<img src="../../src/image/jt_left.png" height="38" width="38" alt="">
+			</div>
+		</div>
+		<div class="title-wrapper">
+			<h4 class="title">忘记密码 ?</h4>
+			<p class="text">欢迎进入景福健康APP</p>
+		</div>
+
+		<div class="form-wrapper">
+			<label for="verification">
+				<span class="wrapper">
+					<input type="text" name="verification" class="verification-inp" placeholder="请输入手机号"><img src="../../src/image/login_close.png" class="empty" height="32" width="32" alt="">
+				</span>
+				<button class="verification">获取验证码</button>
+			</label>
+			<label for="login">
+				<input type="text" name="login" placeholder="验证码"><img src="../../src/image/login_close.png" class="empty" height="32" width="32" alt="">
+			</label>
+			<label for="password">
+				<input type="password" name="password" placeholder="密码"><img src="../../src/image/login_close.png" class="empty" height="32" width="32" alt="">
+			</label>
+			<button class="btn">修改</button>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="forgetPSD.js"></script>
+</body>
+</html>

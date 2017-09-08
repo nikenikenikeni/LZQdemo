@@ -1,0 +1,11 @@
+#diseaseDetail {
+  padding: 0.98133333rem 0.81066667rem;
+  min-height: 28.45866667rem;
+  background-color: #fff;
+}
+#diseaseDetail .text {
+  font-size: 0.55466667rem;
+  line-height: 1.024rem;
+  text-indent: 2em;
+  margin-bottom: 0.29866667rem;
+}

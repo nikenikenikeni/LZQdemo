@@ -1,0 +1,27 @@
+.detail .text {
+  margin: 0.512rem 0;
+  font-size: 0.55466667rem;
+  line-height: 0.768rem;
+  text-indent: 2em;
+  background-color: #fff;
+  padding: 0.42666667rem 0.896rem 0.55466667rem;
+  box-sizing: border-box;
+}
+.detail .questionList .question {
+  background-color: #fff;
+  padding: 0.59733333rem 0.85333333rem 0.68266667rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.detail .questionList .question .title {
+  font-size: 0.59733333rem;
+}
+.detail .questionList .question .answer {
+  float: left;
+  font-size: 0.59733333rem;
+  margin-top: 0.81066667rem;
+  margin-left: 0.7rem;
+}
+.detail .questionList .question .answer input {
+  margin: 0;
+  margin-right: 0.42666667rem;
+}

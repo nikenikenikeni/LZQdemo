@@ -1,0 +1,152 @@
+#sportFeedback .chart-wrapper {
+  height: 14.42133333rem;
+  background: url(../../src/image/img_sport.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-sizing: border-box;
+}
+#sportFeedback .chart-wrapper .header {
+  margin-bottom: 0.55466667rem;
+}
+#sportFeedback .chart-wrapper .header .backWrapper1 {
+  height: 1.49333333rem;
+  line-height: 1.49333333rem;
+  text-align: center;
+  font-size: 0.68266667rem;
+  color: #fff;
+}
+#sportFeedback .chart-wrapper .header .backWrapper1 .arrow {
+  float: left;
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  margin-top: 0.34133333rem;
+  margin-left: 0.59733333rem;
+}
+#sportFeedback .chart-wrapper .header .backWrapper1 .more {
+  float: right;
+  width: 0.768rem;
+  height: 0.21333333rem;
+  margin-top: 0.68266667rem;
+  margin-right: 0.93866667rem;
+}
+#sportFeedback .chart-wrapper .header .backWrapper2 {
+  display: none;
+  height: 1.49333333rem;
+  line-height: 1.49333333rem;
+  text-align: center;
+  font-size: 0.68266667rem;
+  color: #fff;
+}
+#sportFeedback .chart-wrapper .header .backWrapper2 .cancel {
+  float: left;
+  margin-left: 0.59733333rem;
+}
+#sportFeedback .chart-wrapper .header .backWrapper2 .complete {
+  float: right;
+  margin-right: 0.93866667rem;
+}
+#sportFeedback .chart-wrapper .topbar .bar {
+  float: left;
+  width: 33%;
+}
+#sportFeedback .chart-wrapper .topbar .bar .btn {
+  font-size: 0.55466667rem;
+  color: #fff;
+  width: 1.74933333rem;
+  height: 0.896rem;
+  line-height: 0.896rem;
+  border-radius: 0.42666667rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#sportFeedback .chart-wrapper .topbar .bar.active .btn {
+  background-color: #fff;
+  color: #22ac38;
+}
+#sportFeedback .chart-wrapper .msg {
+  margin: 0.98133333rem 0.512rem 0rem;
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+#sportFeedback .chart-wrapper .msg .item {
+  font-size: 0.59733333rem;
+  color: #fff;
+  font-weight: 400;
+}
+#sportFeedback .chart-wrapper .msg .item .numerical {
+  float: right;
+}
+#sportFeedback .chart-wrapper .msg .subList {
+  width: 9.89866667rem;
+  margin-top: 0.27733333rem;
+}
+#sportFeedback .chart-wrapper .msg .subList .subitem {
+  width: 4.94933333rem;
+  float: left;
+  font-size: 0.46933333rem;
+  color: #fff;
+  margin-bottom: 0.21333333rem;
+}
+#sportFeedback .chart-wrapper .msg .time {
+  position: absolute;
+  right: 0;
+  bottom: 0.21333333rem;
+  color: #fff;
+  font-size: 0.42666667rem;
+}
+#sportFeedback #chart {
+  height: 8.32rem;
+}
+#sportFeedback .status {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  font-size: 0.55466667rem;
+  background-color: #fff;
+  color: #666666;
+}
+#sportFeedback .status img {
+  width: 0.93866667rem;
+  height: 0.93866667rem;
+  vertical-align: top;
+  margin-right: 0.42666667rem;
+  margin-top: 0.55466667rem;
+  margin-left: 0.64rem;
+}
+#sportFeedback .cardList {
+  margin-top: 0.512rem;
+  margin-bottom: 0.512rem;
+}
+#sportFeedback .cardList .card {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  border-bottom: 0.04266667rem solid #f0f1f1;
+  font-size: 0.55466667rem;
+  padding-left: 0.64rem;
+}
+#sportFeedback .cardList .card a {
+  color: #333333;
+}
+#sportFeedback .cardList .card img {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  float: right;
+  margin-right: 0.74666667rem;
+  margin-top: 0.55466667rem;
+}
+#sportFeedback .cardList .card .inp {
+  float: right;
+  margin-right: 0.74666667rem;
+  width: 3.2rem;
+  margin-top: 0.5rem;
+  color: #53ac33;
+}
+#sportFeedback .cardList .card .unit {
+  float: right;
+  margin-right: 0.896rem;
+  margin-top: 0.5rem;
+  border: 0;
+  width: 4rem;
+  text-align: right;
+  color: #53ac33;
+}

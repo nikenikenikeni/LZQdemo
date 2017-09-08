@@ -1,0 +1,101 @@
+#healthTesting .nav {
+  float: left;
+  background: #fff;
+  padding: 0.34133333rem 0 1.06666667rem;
+}
+#healthTesting .nav .nav-list {
+  display: block;
+  width: 4.01066667rem;
+}
+#healthTesting .nav .nav-list .nav-item {
+  width: 100%;
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  text-align: center;
+  position: relative;
+}
+#healthTesting .nav .nav-list .nav-item.active {
+  background: url(../../src/image/sid_button.png) no-repeat;
+  background-size: 0.42666667rem 1.87733333rem;
+}
+#healthTesting .nav .nav-list .nav-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333;
+}
+#healthTesting .nav .nav-list .nav-item .image {
+  width: 1.024rem;
+  height: 1.024rem;
+  vertical-align: top;
+  margin-top: 0.4rem;
+  margin-right: 0.384rem;
+}
+#healthTesting .nav .nav-list .nav-item .text {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.64rem;
+}
+#healthTesting .content {
+  float: left;
+  width: 11.56266667rem;
+  margin: 0.08533333rem 0 0 0.40533333rem;
+  background: #fff;
+}
+#healthTesting .content .banner {
+  padding: 0.17066667rem 0.576rem 0.17066667rem 0.256rem;
+}
+#healthTesting .content .banner img {
+  width: 100%;
+  height: 4.94933333rem;
+}
+#healthTesting .content .pain-wrapper .pain-list {
+  width: 100%;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item {
+  width: 100%;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .wrapper {
+  padding-left: 0.768rem;
+  height: 1.87733333rem;
+  box-sizing: border-box;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .wrapper .title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.87733333rem;
+  font-size: 0.55466667rem;
+  font-weight: 700;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .wrapper img {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0.7rem;
+  margin-left: 0.40533333rem;
+  width: 0.512rem;
+  height: 0.512rem;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .msg {
+  padding: 0.68266667rem 0.98133333rem 0.768rem 0.512rem;
+  box-sizing: border-box;
+  background-color: #f0f1f1;
+  display: none;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .msg .text {
+  font-size: 0.55466667rem;
+  line-height: 0.76798362rem;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .msg .btn-wrapper {
+  text-align: center;
+  margin-top: 0.59733333rem;
+}
+#healthTesting .content .pain-wrapper .pain-list .pain-item .msg .btn-wrapper .btn {
+  width: 7.85066667rem;
+  height: 1.36533333rem;
+  background-color: #53ac33;
+  color: #fff;
+  font-size: 0.55466667rem;
+  font-weight: 700;
+  border-radius: 0.17066667rem;
+  border: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>医疗美容</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="hairdressing.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="hairdressing">
+		<div class="content-wrapper">
+			<div class="canvas-wrapper">
+				<canvas id="c1" width="400" height="180"></canvas>
+			</div>
+			<div class="img-wrapper">
+				<img src="../../src/image/meal_time.png" height="32" width="35" alt="">
+			</div>
+		</div>
+		<p class="info">xxx手术 <span class="time">2017年3月5日</span></p>
+		<div class="topbars clearfix">
+			<div class="bar active" data-idx="0">方案详情</div>
+			<div class="bar" data-idx="1">方案效果</div>
+		</div>
+		<div class="view-wrapper clearfix">
+			<div class="view">
+				<div class="card">
+					<p class="item"><img src="../../src/image/doctor.png" height="44" width="44" alt="">主刀医生 <span class="doctor">李丽</span></p>
+					<p class="item"><img src="../../src/image/time.png" height="44" width="44" alt="">手速时间 <span class="time">2017-30-20 17:30</span></p>
+					<p class="item"><img src="../../src/image/address.png" height="44" width="44" alt="">手速地点 <span class="address">A栋507手术室</span></p>
+				</div>
+				<div class="attention">
+					<div class="title"><img src="../../src/image/note.png" height="44" width="44" alt=""> 术前注意事项</div>
+					<p class="text">1. 训练床上大小便及深呼吸。因为有些手术后是需要在床上解决大小便问题，而有效的深呼吸及适当的咳嗽可减少术后并发症的发生，应先作预防练习。</p>
+					<p class="text">2. 手术前8-12小时内禁止饮食，目的是为了防止在麻醉胃内食物返流出来，吸入肺后引起肺炎。但必要的药物可用小口水服下。</p>
+				</div>
+			</div>
+			<div class="view">
+				<div class="effect">
+					<p class="title">手术前效果:</p>
+					<p class="text">手术前一天晚上应保证睡眠，如果无法安睡，可以在医生的同意下服用安定类药物帮助睡眠。充足的睡眠有助于身体对手术的耐受。</p>
+				</div>
+				<div class="effect">
+					<p class="title">手术效果:</p>
+					<p class="text">手术前一天晚上应保证睡眠，如果无法安睡，可以在医生的同意下服用安定类药物帮助睡眠。充足的睡眠有助于身体对手术的耐受。</p>
+				</div>
+				<div class="effect">
+					<p class="title">手术效果:</p>
+					<p class="text">手术前一天晚上应保证睡眠，如果无法安睡，可以在医生的同意下服用安定类药物帮助睡眠。充足的睡眠有助于身体对手术的耐受。</p>
+				</div>
+			</div>
+		</div>
+		<div class="mark">
+			<div class="dateList">
+			</div>
+			<div class="cancel">
+				取消
+			</div>
+		</div>
+	</div>
+	
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="hairdressing.js"></script>
+</body>
+</html>

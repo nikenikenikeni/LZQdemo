@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>血糖</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="bloodSugar.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="bloodSugar">
+		<div class="chart-wrapper">
+			<div class="topbar clearfix">
+				<div class="bar"><p class="btn">日</p></div>
+				<div class="bar active"><p class="btn">周</p></div>
+				<div class="bar"><p class="btn">月</p></div>
+				<div class="bar"><p class="btn">年</p></div>
+			</div>
+			<div class="msg">
+				<h4 class="item">血压 <span class="numerical">5.9</span></h4>
+				<ul class="subList clearfix">
+					<li class="subitem"></li>
+					<li class="subitem"></li>
+					<li class="subitem">5.9</li>
+					<li class="subitem"></li>
+				</ul>
+				<div class="time">今日 10:13</div>
+			</div>
+			<div id="chart"></div>
+		</div>
+		<div class="cardList">
+			<div class="card"><a href="#">显示所有数据<img src="../../src/image/jt_right.png" height="38" width="38" alt=""></a></div>
+			<div class="card">单位 <span class="unit">毫米汞柱</span></div>
+		</div>
+		<div class="info">
+			<p class="text">血液中的葡萄糖称为血糖。体内各组织细胞活动所需的能量大部分来自葡萄糖，所以血糖必须保持一定的水平才能维持体内各器官和组织的需要。正常人在清晨空腹血糖浓度为80～120毫克%。空腹血糖浓度超过130毫克%称为高血糖。如果血糖浓度超过160～180毫克%，就有一部分葡萄糖随尿排出，这就是糖尿。血糖浓度低于70毫克%称为低血糖。小粒径负离子，则有良好的生物活性，易于透过人体血脑屏障， 进入人体发挥其生物效应。对于降糖有良好的疗效。同时建议患者对血同（血同型半胱氨酸）进行检测。较低的血同值能大幅降低糖尿病并发症的发病风险。</p>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="bloodSugar.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+#medicalRecords {
+  overflow: hidden;
+}
+#medicalRecords ::-webkit-scrollbar {
+  width: 0px;
+}
+#medicalRecords .topbar {
+  height: 1.70666667rem;
+  line-height: 1.70666667rem;
+  background-color: #fff;
+}
+#medicalRecords .topbar .bar {
+  float: left;
+  width: 20%;
+  height: 100%;
+  font-size: 0.59733333rem;
+  text-align: center;
+  font-weight: 700;
+}
+#medicalRecords .topbar .bar.active {
+  color: #53ac33;
+  border-bottom: 1px solid #53ac33;
+}
+#medicalRecords .content-wrapper {
+  position: relative;
+}
+#medicalRecords .content-wrapper .img-wrapper {
+  position: absolute;
+  top: 0.42666667rem;
+  right: 1.152rem;
+  opacity: 0.6;
+}
+#medicalRecords .content-wrapper .img-wrapper img {
+  width: 1.28rem;
+  height: 1.28rem;
+}
+#medicalRecords #calendar {
+  position: relative;
+  left: 0;
+  top: 0;
+  margin-top: 0.08533333rem;
+}
+#medicalRecords #calendar .container {
+  float: left;
+  background-color: #fff;
+  min-height: 28.45866667rem;
+  position: relative;
+}
+#medicalRecords #calendar .container .cardList .title {
+  text-align: center;
+  font-size: 0.64rem;
+  font-weight: 700;
+  margin: 0.896rem 0;
+}
+#medicalRecords #calendar .container .cardList .card {
+  padding: 0.42666667rem 0.512rem;
+  border-bottom: 1px solid #f0f1f1;
+}
+#medicalRecords #calendar .container .cardList .card .item {
+  font-size: 0.55466667rem;
+  line-height: 1.024rem;
+  margin-bottom: 0.5rem;
+  color: #666666;
+}
+#medicalRecords #calendar .container .cardList .card .content,
+#medicalRecords #calendar .container .cardList .card .report {
+  font-size: 0.55466667rem;
+  line-height: 1.23733333rem;
+  text-indent: 2em;
+  margin-bottom: 0.81066667rem;
+  color: #666666;
+}
+#medicalRecords .mark {
+  width: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 99;
+}
+#medicalRecords .mark .dateList {
+  width: 100%;
+  transition: 0.4s;
+  transform: translateY(204px);
+  -webkit-transform: translateY(204px);
+  max-height: 12.8rem;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  z-index: 999;
+  overflow-y: auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+#medicalRecords .mark .dateList .date {
+  height: 34px;
+  line-height: 34px;
+  background-color: #fff;
+  text-align: center;
+  color: #53ac33;
+  font-size: 0.64rem;
+  border-bottom: 1px solid #eeeeee;
+}
+#medicalRecords .mark .cancel {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 34px;
+  width: 95%;
+  line-height: 34px;
+  background-color: #fff;
+  text-align: center;
+  color: #53ac33;
+  font-size: 0.64rem;
+  margin: 0 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+#medicalRecords .transition {
+  transition: .6s;
+}
+#medicalRecords #c1 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f0f1f1;
+}
+#medicalRecords .canvas-wrapper {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>中大景福</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="index.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="index">
+		<div class="banner"><img src="../../src/image/banner.png"></div>
+		<div class="search-wrapper">
+			<div class="search">
+				<input type="text" class="searchInp">
+				<div class="placeholder"><img src="../../src/image/re_seek.png" height="28" width="28">搜索</div>
+			</div>
+		</div>
+		<div class="test">
+			<div class="list clearfix">
+				<li class="item clearfix">
+					<a href="../hospital/hospital.html">
+						<div class="img-wrapper">
+							<img src="../../src/image/ref_1.png" height="77" width="77" alt="">
+						</div>
+						<div class="content">
+							<h4>院内服务</h4>
+							<p class="text">合作医院绿色通道…</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../successfulCases/successfulCases.html">
+						<div class="img-wrapper">
+							<img src="../../src/image/ref_2.png" height="77" width="77" alt="">
+						</div>
+						<div class="content">
+							<h4>成功案例</h4>
+							<p class="text">有效案例显示…</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../testing/testing.html">
+						<div class="img-wrapper">
+							<img src="../../src/image/ref_3.png" height="77" width="77" alt="">
+						</div>
+						<div class="content">
+							<h4>诊前咨询</h4>
+							<p class="text">咨询专家出诊情况…</p>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../healthTesting/healthTesting.html">
+						<div class="img-wrapper">
+							<img src="../../src/image/ref_4.png" height="77" width="77" alt="">
+						</div>
+						<div class="content">
+							<h4>健康导诊</h4>
+							<p class="text">只能自测疾病…</p>
+						</div>
+					</a>
+				</li>
+			</div>
+		</div>
+		<div class="guide">
+			<div class="guide-title">
+				<div class="heng"></div>诊前自测<div class="heng"></div>
+			</div>
+			<div class="slideBox">
+				<ul class="slide clearfix" id="slide">
+					<li><a href="../healthGuidance/healthGuidance.html"><img src="../../src/image/test_1.png" class="slide-img" height="200" width="280"></a></li>
+					<li><a href="../healthGuidance/healthGuidance.html"><img src="../../src/image/test_2.png" class="slide-img"></a></li>
+					<li><a href="../healthGuidance/healthGuidance.html"><img src="../../src/image/test_1.png" class="slide-img"></a></li>
+					<li><a href="../healthGuidance/healthGuidance.html"><img src="../../src/image/test_2.png" class="slide-img"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="disease">
+			<div class="title"><a href="">常见疾病<img src="../../src/image/jt_right.png" height="38" width="38" alt="arrow"></a></div>
+			<div class="option-wrapper">
+				<ul class="option-list clearfix">
+					<li class="option active">全部</li>
+					<li class="option">外科</li>
+					<li class="option">妇科</li>
+					<li class="option">全部</li>
+					<li class="option">外科</li>
+					<li class="option">妇科</li>
+					<li class="option">全部</li>
+					<li class="option">外科</li>
+				</ul>
+			</div>
+		</div>
+		<div class="information">
+			<div class="title"><a href="../healthInformation/healthInformation.html">健康资讯<img src="../../src/image/jt_right.png" height="38" width="38" alt="arrow"></a></div>
+			<ul class="list">
+				<li class="item clearfix">
+					<a href="../healthInformationDetail/healthInformationDetail.html">
+						<div class="thumbnail"><img src="../../src/image/img_news2.png" height="124" width="168"></div>
+						<div class="content">
+							<p class="text">激发正能量拒绝"初老症松" : 学会"有效放松"</p>
+							<div class="time">14:27</div>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../healthInformationDetail/healthInformationDetail.html">
+						<div class="thumbnail"><img src="../../src/image/img_news2.png"></div>
+						<div class="content">
+							<p class="text">激发正能量拒绝"初老症松" : 学会"有效放松"</p>
+							<div class="time">14:27</div>
+						</div>
+					</a>
+				</li>
+				<li class="item clearfix">
+					<a href="../healthInformationDetail/healthInformationDetail.html">
+						<div class="thumbnail"><img src="../../src/image/img_news2.png"></div>
+						<div class="content">
+							<p class="text">激发正能量拒绝"初老症松" : 学会"有效放松"</p>
+							<div class="time">14:27</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="tabs clearfix">
+		<div class="tab active"><a href="../index/index.html">首页</a></div>
+		<div class="tab"><a href="../healthButler/healthButler.html">健康管家</a></div>
+		<div class="tab"><a href="../personalCenter/personalCenter.html">个人中心</a></div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

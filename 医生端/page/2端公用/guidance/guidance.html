@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>导诊</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="guidance.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="guidance">
+		<div id="answer-wrapper">
+			<div class="progress-wrapper">
+				<div class="progress">
+					<div class="schedule"></div>
+				</div>
+
+				<p class="text"><span class="current">1</span> / <span class="totalProblem"></span></p>
+			</div>
+
+			<div class="container">
+				<div class="question">
+					<img src="../../src/image/referral_cont.png" height="128" width="128" alt=""><span class="question">第<span class="num">1</span>题</span>
+				</div>
+				<p class="title" id="questionTitle"></p>
+				<ul class="answerList">
+				</ul>
+			</div>
+		</div>
+
+		<div id="result-wrapper">
+			<div id="chart"></div>
+				
+			<div class="result">
+				<p class="progress-title" data-toggel="false">疾病1 <img src="../../src/image/jt_down.png" class="down" height="24" width="24" alt=""></p>
+				<div class="card-list">
+					<div class="consequence card">
+						<div class="title"><span class="block"></span><span class="text">测试结果</span></div>
+						<div class="msg">
+							<p class="text">要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+						</div>
+					</div>
+					<div class="announcements card">
+						<div class="title"><span class="block"></span><span class="text">注意事项</span></div>
+						<div class="msg">
+							<p class="text">1、要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+							<p class="text">2、要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+						</div>
+					</div>
+					<div class="doctorAdvices card">
+						<div class="title"><span class="block"></span><span class="text">医生建议</span></div>
+						<div class="msg">
+							<p class="text">注意用眼休息。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="result">
+				<p class="progress-title" data-toggel="false">疾病2 <img src="../../src/image/jt_down.png" class="down" height="24" width="24" alt=""></p>
+				<div class="card-list">
+					<div class="consequence card">
+						<div class="title"><span class="block"></span><span class="text">测试结果</span></div>
+						<div class="msg">
+							<p class="text">要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+						</div>
+					</div>
+					<div class="announcements card">
+						<div class="title"><span class="block"></span><span class="text">注意事项</span></div>
+						<div class="msg">
+							<p class="text">1、要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+							<p class="text">2、要注意，有患有青光眼的危险，或可能有青光眼，建议做有关青光眼的必要检查。</p>
+						</div>
+					</div>
+					<div class="doctorAdvices card">
+						<div class="title"><span class="block"></span><span class="text">医生建议</span></div>
+						<div class="msg">
+							<p class="text">注意用眼休息。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="../../src/lib/echarts.common.min.js"></script>
+	<script src="../../src/js/loading.js"></script>
+	<script src="guidance.js"></script>
+</body>
+</html>

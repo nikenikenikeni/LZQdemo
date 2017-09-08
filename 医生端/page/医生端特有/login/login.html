@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>登录</title>
+	<link rel="stylesheet" href="../../src/css/style.css">
+	<link rel="stylesheet" href="login.css">
+	<script>
+		var iWidth = document.documentElement.clientWidth;
+		iWidth=iWidth>1620?1620:iWidth
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth / 16 + 'px';
+	</script>
+</head>
+<body>
+	<div id="login">
+		<div class="header clearfix">
+			<div class="left-wrapper">
+				<img src="../../src/image/close.png" height="34" width="34" alt="">
+			</div>
+			<div class="rigth-wrapper">
+				<a href="#">注册</a>
+			</div>
+		</div>
+		<div class="title-wrapper">
+			<h4 class="title">您好！ 请注册/登录</h4>
+			<p class="text">欢迎进入景福健康APP</p>
+		</div>
+
+		<div class="form-wrapper">
+			<label for="login">
+				<input type="text" name="login" placeholder="账号"><img src="../../src/image/login_close.png" class="empty" height="32" width="32" alt="">
+			</label>
+			<label for="password">
+				<input type="password" name="password" placeholder="密码"><img src="../../src/image/login_close.png" class="empty" height="32" width="32" alt="">
+			</label>
+			<p class="forget"><a href="#">忘记密码 ？</a></p>
+			<button class="btn">登录</button>
+		</div>
+	</div>
+	<script src="../../src/lib/jquery-3.1.1.min.js"></script>
+	<script src="login.js"></script>
+</body>
+</html>

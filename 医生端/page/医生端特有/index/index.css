@@ -1,0 +1,278 @@
+#index .banner {
+  height: 9.68533333rem;
+  width: 100%;
+}
+#index .banner img {
+  width: 100%;
+  height: 100%;
+}
+#index .search-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.192rem 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#index .search {
+  text-align: center;
+  position: relative;
+}
+#index .search .searchInp {
+  border: none;
+  width: 14.76266667rem;
+  height: 1.19466667rem;
+  border-radius: 0.17066667rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#index .search .searchInp:focus {
+  outline-color: transparent;
+}
+#index .search .placeholder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 14.80533333rem;
+  height: 100%;
+  font-size: 0.55466667rem;
+  line-height: 1.19466667rem;
+  color: #999999;
+  margin: 0 0.61866667rem;
+  box-sizing: border-box;
+  border-radius: 0.17066667rem;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#index .search .placeholder img {
+  width: 0.59733333rem;
+  height: 0.59733333rem;
+  margin-right: 0.17066667rem;
+  vertical-align: top;
+  margin-top: 0.27733333rem;
+}
+#index .title {
+  height: 1.68533333rem;
+  line-height: 1.68533333rem;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fff;
+  font-size: 0.64rem;
+  padding-left: 1.024rem;
+  box-sizing: border-box;
+}
+#index .title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#index .title img {
+  float: right;
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  margin-top: 0.46933333rem;
+  margin-right: 0.93866667rem;
+}
+#index .test {
+  margin-top: 0.512rem;
+}
+#index .test .list .item {
+  background-color: #fff;
+  float: left;
+  width: 7.97866667rem;
+  height: 3.05066667rem;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 0.704rem;
+  box-sizing: border-box;
+}
+#index .test .list .item:nth-of-type(2n) {
+  border-right: none;
+}
+#index .test .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#index .test .list .item .img-wrapper {
+  float: left;
+  margin-left: 1.024rem;
+  margin-right: 0.384rem;
+}
+#index .test .list .item .img-wrapper img {
+  width: 1.664rem;
+  height: 1.664rem;
+}
+#index .test .list .item .content {
+  float: left;
+  width: 4.55rem;
+}
+#index .test .list .item .content h4 {
+  font-size: 0.64rem;
+  margin-top: 0.08533333rem;
+  font-weight: 400;
+}
+#index .test .list .item .content .text {
+  font-size: 0.42666667rem;
+  margin-top: 0.27733333rem;
+  color: #666666;
+}
+#index .expert {
+  background-color: #fff;
+  margin-top: 0.512rem;
+}
+#index .expert .list {
+  padding: 0.68266667rem 0.49066667rem;
+  box-sizing: border-box;
+}
+#index .expert .list .item {
+  float: left;
+  width: 4.608rem;
+  margin-right: 0.512rem;
+  text-align: center;
+}
+#index .expert .list .item:last-child {
+  margin-right: 0;
+}
+#index .expert .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#index .expert .list .item .avatar img {
+  width: 3.75466667rem;
+  height: 3.75466667rem;
+}
+#index .expert .list .item .name {
+  font-size: 0.59733333rem;
+  margin-top: 0.42666667rem;
+}
+#index .expert .list .item .text {
+  font-size: 0.46933333rem;
+  color: #8c8c8c;
+  margin-top: 0.384rem;
+}
+#index .guide {
+  height: 7.46666667rem;
+}
+#index .guide .guide-title {
+  text-align: center;
+  margin-top: 0.81066667rem;
+  font-size: 0.64rem;
+  line-height: 0.64rem;
+}
+#index .guide .guide-title .heng {
+  width: 1.36533333rem;
+  height: 0.04266667rem;
+  background-color: #333333;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.192rem;
+}
+#index .guide .slideBox {
+  margin-top: 0.98133333rem;
+  position: relative;
+  width: 100%;
+  height: 4.26666667rem;
+  overflow: hidden;
+}
+#index .guide .slideBox .slide {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#index .guide .slideBox .slide li {
+  float: left;
+}
+#index .guide .slideBox .slide li a {
+  display: block;
+  widows: 100%;
+  height: 100%;
+}
+#index .guide .slideBox .slide li img {
+  width: 5.97333333rem;
+  height: 4.26666667rem;
+  margin-left: 0.59733333rem;
+}
+#index .disease {
+  background-color: #fff;
+  margin-bottom: 0.46933333rem;
+}
+#index .disease .guide-title {
+  text-align: center;
+  margin-top: 0.81066667rem;
+  font-size: 0.64rem;
+  line-height: 0.64rem;
+}
+#index .disease .guide-title .heng {
+  width: 1.36533333rem;
+  height: 0.04266667rem;
+  background-color: #333333;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.192rem;
+}
+#index .disease .option-wrapper {
+  padding: 1.024rem 1.152rem 0.29866667rem 0.98133333rem;
+  box-sizing: border-box;
+}
+#index .disease .option-list .option {
+  width: 2.51733333rem;
+  height: 1.32266667rem;
+  line-height: 1.32266667rem;
+  border: 1px solid #bfbfbf;
+  margin-right: 1.13rem;
+  margin-bottom: 0.85333333rem;
+  border-radius: 0.17066667rem;
+  text-align: center;
+  font-size: 0.64rem;
+  float: left;
+}
+#index .disease .option-list .option.active {
+  color: #22ac38;
+  border-color: #22ac38;
+}
+#index .disease .option-list .option:nth-of-type(4n) {
+  margin-right: 0;
+}
+#index .information {
+  background-color: #fff;
+  padding-bottom: 0.85333333rem;
+}
+#index .information .list .item {
+  padding: 0.34133333rem 0.59733333rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eeeeee;
+  position: relative;
+}
+#index .information .list .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #333333;
+}
+#index .information .list .item .thumbnail {
+  float: left;
+  margin-right: 0.46933333rem;
+}
+#index .information .list .item .thumbnail img {
+  width: 3.584rem;
+  height: 2.64533333rem;
+}
+#index .information .list .item .content {
+  float: left;
+  width: 10.752rem;
+}
+#index .information .list .item .content .text {
+  margin-top: 0.192rem;
+  font-size: 0.64rem;
+  line-height: 1.024rem;
+}
+#index .information .list .item .content .time {
+  position: absolute;
+  right: 0.64rem;
+  bottom: 0.384rem;
+  font-size: 0.512rem;
+  color: #666666;
+}

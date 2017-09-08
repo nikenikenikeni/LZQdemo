@@ -1,0 +1,35 @@
+#hospital {
+  padding-top: 0.42666667rem;
+}
+#hospital .hospitalList .item {
+  height: 2.56rem;
+  line-height: 2.13333333rem;
+  padding: 0.21333333rem 0.68266667rem 0.21333333rem 0.55466667rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 0.36266667rem;
+  position: relative;
+}
+#hospital .hospitalList .item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #5b5b5b;
+}
+#hospital .hospitalList .item .logo {
+  width: 2.13333333rem;
+  height: 2.13333333rem;
+}
+#hospital .hospitalList .item .name {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0.64rem;
+  margin-left: 1.024rem;
+}
+#hospital .hospitalList .item .arrow {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  position: absolute;
+  right: 0.72533333rem;
+  top: 0.93866667rem;
+}

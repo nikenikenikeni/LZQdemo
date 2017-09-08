@@ -1,0 +1,95 @@
+#register {
+  min-height: 28.45866667rem;
+  background-color: #fff;
+  padding: 0.34133333rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+#register .header .left-wrapper {
+  float: left;
+}
+#register .header .left-wrapper img {
+  width: 0.72533333rem;
+  height: 0.72533333rem;
+}
+#register .header .rigth-wrapper {
+  float: right;
+  height: 0.72533333rem;
+  line-height: 0.72533333rem;
+  font-size: 0.72533333rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+#register .header .rigth-wrapper a {
+  color: #53ac33;
+}
+#register .title-wrapper {
+  margin-top: 2.816rem;
+  margin-bottom: 5.33333333rem;
+}
+#register .title-wrapper .title {
+  font-size: 0.98133333rem;
+  color: #53ac33;
+}
+#register .title-wrapper .text {
+  font-size: 0.55466667rem;
+  margin-top: 0.384rem;
+  color: #53ac33;
+}
+#register .form-wrapper .wrapper {
+  position: relative;
+}
+#register .form-wrapper label {
+  display: block;
+  position: relative;
+}
+#register .form-wrapper label .empty {
+  display: none;
+  position: absolute;
+  width: 0.68266667rem;
+  height: 0.68266667rem;
+  right: 0.256rem;
+  bottom: 0.256rem;
+}
+#register .form-wrapper input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999999;
+  font-size: 0.59733333rem;
+  padding-bottom: 0.256rem;
+  margin-top: 1.23733333rem;
+}
+#register .form-wrapper input:focus {
+  outline-color: transparent;
+}
+#register .form-wrapper .verification-inp {
+  width: 10.02666667rem;
+  vertical-align: bottom;
+}
+#register .form-wrapper .verification {
+  width: 3.92533333rem;
+  height: 1.36533333rem;
+  border-radius: 0.17066667rem;
+  border: none;
+  font-size: 0.55466667rem;
+  color: #fff;
+  background-color: #53ac33;
+  margin-left: 0.55466667rem;
+}
+#register .form-wrapper .forget {
+  text-align: right;
+  font-size: 0.46933333rem;
+  color: #b0b0b0;
+  margin-top: 0.42666667rem;
+}
+#register .form-wrapper .btn {
+  display: block;
+  width: 12.97066667rem;
+  height: 1.87733333rem;
+  border-radius: 0.17066667rem;
+  border: none;
+  margin: 1.23733333rem auto 0;
+  font-size: 0.72533333rem;
+  color: #fff;
+  background-color: #53ac33;
+}

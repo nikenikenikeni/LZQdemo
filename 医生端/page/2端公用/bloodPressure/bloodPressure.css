@@ -1,0 +1,94 @@
+#bloodPressure .chart-wrapper {
+  height: 13.35466667rem;
+  background: url(../../src/image/img_blood.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 0.55466667rem;
+  box-sizing: border-box;
+}
+#bloodPressure .chart-wrapper .topbar .bar {
+  float: left;
+  width: 25%;
+}
+#bloodPressure .chart-wrapper .topbar .bar .btn {
+  font-size: 0.55466667rem;
+  color: #fff;
+  width: 1.74933333rem;
+  height: 0.896rem;
+  line-height: 0.896rem;
+  border-radius: 0.42666667rem;
+  margin: 0 auto;
+  text-align: center;
+}
+#bloodPressure .chart-wrapper .topbar .bar.active .btn {
+  background-color: #fff;
+  color: #22ac38;
+}
+#bloodPressure .chart-wrapper .msg {
+  margin: 0.98133333rem 0.512rem 0rem;
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+#bloodPressure .chart-wrapper .msg .item {
+  font-size: 0.59733333rem;
+  color: #fff;
+  font-weight: 400;
+}
+#bloodPressure .chart-wrapper .msg .item .numerical {
+  float: right;
+}
+#bloodPressure .chart-wrapper .msg .subList {
+  width: 9.89866667rem;
+  margin-top: 0.27733333rem;
+}
+#bloodPressure .chart-wrapper .msg .subList .subitem {
+  width: 4.94933333rem;
+  float: left;
+  font-size: 0.46933333rem;
+  color: #fff;
+  margin-bottom: 0.21333333rem;
+}
+#bloodPressure .chart-wrapper .msg .time {
+  position: absolute;
+  right: 0;
+  bottom: 0.21333333rem;
+  color: #fff;
+  font-size: 0.42666667rem;
+}
+#bloodPressure #chart {
+  height: 8.32rem;
+}
+#bloodPressure .cardList {
+  margin-top: 0.512rem;
+  margin-bottom: 0.512rem;
+}
+#bloodPressure .cardList .card {
+  height: 1.87733333rem;
+  line-height: 1.87733333rem;
+  background-color: #fff;
+  border-bottom: 0.04266667rem solid #f0f1f1;
+  font-size: 0.55466667rem;
+  padding-left: 0.64rem;
+}
+#bloodPressure .cardList .card a {
+  color: #333333;
+}
+#bloodPressure .cardList .card img {
+  width: 0.81066667rem;
+  height: 0.81066667rem;
+  float: right;
+  margin-right: 0.74666667rem;
+  margin-top: 0.55466667rem;
+}
+#bloodPressure .cardList .card .unit {
+  float: right;
+  margin-right: 0.74666667rem;
+}
+#bloodPressure .info {
+  background-color: #fff;
+  padding: 0.46933333rem 0.85333333rem;
+  box-sizing: border-box;
+  font-size: 0.55466667rem;
+  line-height: 1.024rem;
+  text-indent: 2em;
+}
